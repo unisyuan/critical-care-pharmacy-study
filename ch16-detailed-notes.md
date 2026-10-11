@@ -1,0 +1,555 @@
+# 第 16 章詳細重點整理
+
+依提供的 2024 教材整理。專有名詞與藥名保留英文；原稿有疑義處保留核對註。
+
+## 複習架構：止血與復甦同步，解除 Obstruction
+Hypovolemic shock 的重點不只是補液，還包括血液成分、coagulopathy、temperature、Calcium、acid–base 與病因。Obstructive shock 則需辨識並解除機械性循環阻礙。
+
+### 1. Hypovolemic／Hemorrhagic Shock
+- 區分 hemorrhage 與非出血性 fluid loss；評估 perfusion、ongoing loss、病因與相關 organ injury。
+- Trauma-associated coagulopathy 與稀釋、hypothermia、acidosis 等相互影響，應與 hemorrhage control 一起處理。
+- 止血、手術／介入與 blood product resuscitation 不能被大量 crystalloid 取代。
+
+### 2. Blood Products 與 MTP
+- PRBC、Plasma、Platelets、Cryoprecipitate／Fibrinogen products 的功能不同；復甦需要考慮各成分與檢驗／臨床目標。
+- MTP 需有啟動、配發、溝通與終止機制，並在取得 laboratory／viscoelastic data 後調整。
+- 監測 Hypocalcemia、Hypothermia、Potassium、acid–base、bleeding、volume overload 與 transfusion reactions。
+- Hemoglobin 不能在急性失血初期單獨代表嚴重度，也不能取代 ongoing bleeding 與 perfusion assessment。
+
+### 3. Burn Resuscitation
+- 估算 fluid requirements 時需確認 body weight、TBSA、burn timing 與使用公式的情境。
+- 公式是起始估算，實際 rate 需依 UOP、perfusion、electrolytes 與其他 endpoints 調整。
+- 注意 fluid creep、edema 與 organ complications；營養、infection 與 pain management 亦需整合。
+
+### 4. Hemostatic Agents
+- Tranexamic acid／其他 antifibrinolytics 的角色與給藥時間窗需依適應症解讀；不同 trauma／surgery 情境不可互相套用。
+- PCC、rFVIIa 與 blood products 的組成、作用與風險不同；改善 laboratory result 不一定等於已改善病人結果。
+- 使用前後評估 active bleeding、thrombosis risk、原發原因及實際 hemostasis。
+
+### 5. Anticoagulant Reversal
+|先確認的資訊|為什麼重要|
+|---|---|
+|藥物與最後給藥時間|決定是否仍有重要 anticoagulant effect|
+|Renal／hepatic function|影響暴露與持續時間|
+|Bleeding site／severity|決定 urgency 與 reversal 強度|
+|可用檢驗與 procedures|協助評估，但不能讓不適當等待延遲緊急處置|
+- Warfarin、Heparins、direct Thrombin inhibitor 與 Factor Xa inhibitors 的 reversal methods 不同。
+- Idarucizumab、Andexanet alfa、PCC、Protamine、Vitamin K 等需依原藥與病況選擇，不能視為可互換 antidotes。
+- Antiplatelet-associated bleeding 需另評估藥物、病灶與程序，不能直接套用 anticoagulant reversal 規則。
+
+### 6. Obstructive Shock
+- Massive PE、Cardiac tamponade、Tension pneumothorax 等原因需及時辨識。
+- Fluids、vasopressors 與 oxygenation 可作支持，但 definitive treatment 在於解除 obstruction。
+- PE 的 anticoagulation、systemic／catheter-directed reperfusion 或其他介入，需結合 hemodynamic instability、bleeding risk 與程序資源。
+
+
+# 分主題詳細條目
+
+## I. HYPOVOLEMIC SHOCK
+
+### A. 病因與流行病學
+
+原稿 PDF 頁：[8](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=8)。
+
+1. Hypovolemic shock 是由 intravascular volume 減少（即 preload 降低）造成，進而使 stroke volume 與 cardiac output（CO）降低，導致組織灌流不足。在所有需要 vasoactive medications 的 shock 病例中，hypovolemic shock 約占 16%。
+2. 在美國，創傷後最常見的 shock 類型為 hypovolemic shock；據估計，exsanguination 每年直接造成約 50,000 例美國創傷死亡（Table 1）。
+a. 占創傷相關死亡的比例高達 30%–40%。
+b. 為 45 歲以下病人的主要死因，因此對社會造成的負擔更大。
+3. 雖然常與創傷有關，hypovolemic shock 也可出現在其他臨床情境，例如 heat stroke、acute gastrointestinal（GI）bleeding、手術、產科、藥物毒性、燒傷、pancreatitis，以及 extracellular fluid 流失。
+4. 一項研究使用 National Trauma Data Bank 於 2001–2005 年的資料，探討種族與保險狀態對創傷死亡率的影響；研究納入 18–64 歲、因 blunt 或 penetrating trauma 而有 Injury Severity Score ≥9 的病人。研究特別評估種族及保險狀態是否能獨立預測創傷後的結果差異。White、African American 與 Hispanic 組的粗死亡率分別為 5.7%、8.2% 與 9.1%（p<0.005）。依保險狀態分析，有保險病人的粗死亡率（4.4%）顯著低於無保險病人（8.6%）（p<0.005）。研究也發現，有保險的 African American 及 Hispanic 病人死亡率高於有保險的 White 病人；各組無保險病人的此差異更為嚴重。
+**Table 1. 依出血原因估計美國及全球每年出血相關死亡人數與 years of life lost**
+| 出血原因 | 該診斷死亡中因出血死亡比例（%）ᵃ | 美國死亡人數／年 | 美國 years of life lost | 全球死亡人數／年 | 全球 years of life lost |
+|---|---:|---:|---:|---:|---:|
+| Trauma | 30 | 49,440 | 1,931,786 | 1,481,700 | 74,568,000 |
+| Abdominal aortic aneurysm | 100 | 9988 | 65,273 | 191,700 | 2,881,760 |
+| Peptic ulcer disease | 60 | 1860 | 38,597 | 141,000 | 3,903,600 |
+| Maternal disorder | 23 | 138 | 7572 | 69,690 | 4,298,240 |
+ᵃ估計因出血死亡占該診斷所有死亡的百分比。
+Modified from: Cannon JW. Hemorrhagic shock. N Engl J Med 2018;378:370-9.
+
+### B. 病理生理學
+
+原稿 PDF 頁：[8](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=8)、[9](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=9)。
+
+1. Hypovolemic shock 可分為 hemorrhagic 與 nonhemorrhagic：
+a. Whole blood loss（hemorrhagic）：全血從開放性傷口流失，或流入身體腔室，例如肢體、retroperitoneal space。
+b. Plasma loss（nonhemorrhagic）：extracellular fluid 流失，例如燒傷、pancreatitis、third spacing、peritonitis、嘔吐及腹瀉。
+2. 體重 70 kg 病人的估計血量為 5 L（男性 75 mL/kg，女性 65 mL/kg）。當 intravascular volume 流失損害 DO₂ 時便會發生 hemorrhagic shock；通常為流失超過 30% 的總血量。
+3. Hypovolemic shock 的臨床特徵包括 hypotension、tachycardia、diaphoresis、意識狀態改變及尿量減少。如果 hypovolemic shock 繼發於創傷出血，可使用生理變數估計出血量（Table 2）。
+**Table 2. 創傷出血分級ᵃ**
+| 項目 | Class I | Class II（輕度） | Class III（中度） | Class IV（重度） |
+|---|---|---|---|---|
+| 血量流失（%） | <15% | 15%–30% | 30%–40% | >40% |
+| 心率 | ↔ | ↔／↑ | ↑ | ↑／↑↑ |
+| 血壓 | ↔ | ↔ | ↔／↓ | ↓ |
+| Pulse pressure | ↔ | ↓ | ↓ | ↓ |
+| 呼吸速率 | ↔ | ↔ | ↔／↑ | ↑ |
+| 尿量 | ↔ | ↔ | ↓ | ↓↓ |
+| Glasgow Coma Scale score | ↔ | ↔ | ↓ | ↓ |
+| Base deficit | 0 至 −2 mEq/L | −2 至 −6 mEq/L | −6 至 −10 mEq/L | ≤−10 mEq/L |
+ᵃ此分類系統僅用於指導初始治療，因為身體對出血的生理反應是連續變化。影響出血生理反應的干擾因素包括病人年齡、受傷嚴重度、受傷後經過時間、到院前介入，以及治療慢性病的藥物。因此，不應等到病人完全符合各項精確生理分類後才開始 volume resuscitation。
+Information from: 10th Edition of the Advanced Trauma Life Support® (ATLS®) Student Course Manual. American College of Surgeons, 2018.
+
+### C. Acute Traumatic Coagulopathy（ATC）
+
+原稿 PDF 頁：[9](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=9)、[10](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=10)、[11](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=11)、[12](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=12)。
+
+1. 對於定義 traumatic coagulopathy 的數值尚無共識，存在多種定義。不過，通常將其定義為與 antiplatelet 或 anticoagulation therapy 無關的標準 plasma-based coagulation tests（aPTT、prothrombin time［PT］與 INR）高於正常上限。可用的標準包括 PT >18 seconds、INR >1.5、aPTT >60 seconds，或任何一項數值達到檢驗室參考值的 1.5 倍。PT 延長的盛行率較高，但 PTT 延長的特異性較高。一項 multicenter observational study 顯示，以 INR 定義的 acute coagulopathy（INR >1.5）與死亡（odds ratio［OR］1.88；p<0.001）、venous thromboembolism（OR 1.73；p<0.001）及 multiorgan failure（OR 1.38；p=0.02）顯著相關。
+4. ATC 的特徵判定
+a. 建議使用標準 coagulation laboratory tests 或 viscoelastic tests 作為監測方法，以判定 ATC（European Trauma Guidelines，grade 1C recommendation）。
+b. Viscoelastic tests 在 hemorrhagic shock 的 coagulopathy 篩檢中，扮演逐漸重要的角色。
+i. Whole blood coagulation tests 可呈現整體 clot function，包括 clot initiation、formation、stabilization 與 fibrinolysis；與標準 plasma coagulation studies 有良好相關性，也可能作為 turnaround time 較短的 point-of-care tests。
+ii. 可用的檢查包括 thromboelastogram（TEG）與 rotational thromboelastometry（ROTEM），兩者分別較常用於美國與歐洲。
+iii. TEG 的輸出包括 clot kinetics 的圖形呈現（Figure 1 與 Figure 2）。
+**Figure 1. Thromboelastogram 的特徵。**
+α = α-angle；K = kinetics；LY30 = lysis at 30 minutes；MA = maximum amplitude；R = reaction（time）。
+原圖其餘標籤：Time (min) = 時間（分鐘）；20 mm clot burden = 20 mm clot burden。圖中 R 標示開始至首次曲線分開的反應時間，K 標示之後達 20 mm clot burden 的區間，α 為展開角度，MA 為最大振幅，LY30 表示 30 分鐘的 lysis。
+**Figure 2. TEG tracings（深色）相對於 control（淺色）的範例，以及對應判讀與治療。**
+| TEG 判讀 | 治療 |
+|---|---|
+| Hypercoagulable | 可行時以 enoxaparin 或 heparin 進行 prophylaxis |
+| Hyperfibrinolysis | Tranexamic acid |
+| Fibrinogen deficiency | Cryoprecipitate 或 concentrated fibrinogen |
+| Factor deficiency | Plasma 或 prothrombin complex concentrate |
+| Platelet dysfunction | Platelet transfusions 或 desmopressin |
+原圖欄標：TEG Tracing（TEG 曲線）、Interpretation（判讀）、Treatment（治療）。深色曲線為病人，淺色為 control。讀圖形態：Hypercoagulable 較早展開；Hyperfibrinolysis 展開後收窄；Fibrinogen deficiency 展開較緩；Factor deficiency 開始展開較晚；Platelet dysfunction 振幅較小。
+**Table 3. TEG 輸出參數與正常值**
+| TEG 參數 | 說明 | 正常範圍ᵃ（kaolin-activated） | 治療 |
+|---|---|---|---|
+| Reaction（R）time | 偵測到第一個 clot 證據前所需時間；從開始至初始 fibrin formation 的潛伏時間，受 factor VIIa 與 tissue factor 影響（直到 fibrin clot formation 的時間）。 | 3–9 min | 升高時給予 fresh frozen plasma |
+| Kinetics（K） | 從 R 結束（factor initiation 與 clot formation 開始）至 clot 達到 20 mm amplitude of clot strength 的時間（clot formation 的速度），代表 platelet activity、factor levels 與 fibrinogen。 | 1–3 min | 升高時給予 cryoprecipitate |
+| α-Angle | Fibrin buildup 與 crosslinking 的速度（clot strengthening），因此可評估 clot formation 的速率。 | 55–78 degrees | 降低時給予 cryoprecipitate |
+| Maximum amplitude（MA） | 代表 fibrin clot 的最大強度；主要由 platelets 決定，fibrinogen 亦有影響（MA 的 80% 來自 platelet function，其餘 20% 來自 fibrin）。 | 51–69 mm | 降低時給予 platelets |
+| Estimated percent lysis 或 lysis at 30 min（LY30） | 代表 MA 達到後 30 min 的 amplitude 下降百分比，測量 fibrinolysis 程度。 | 0%–8% | 升高時給予 aminocaproic acid |
+ᵃ標準 TEG 為 kaolin-activated；使用 native blood 時數值不同。使用 native whole blood 的 TEG 速度較慢（R-time 4–8 min、α-angle 47–74 degrees、MA 55–73 mm、K 1–4 min；LY30 通常不報告或判讀）。
+TEG = thromboelastography。
+Information from: Gonzalez E, Pieracci FM, Moore EE, et al. Coagulation abnormalities in the trauma patient: the role of point-of-care thromboelastography. Semin Thromb Hemost 2010;36:723-37.
+
+### D. Chronic Liver Disease 的 Coagulopathy
+
+原稿 PDF 頁：[12](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=12)、[13](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=13)。
+
+1. Chronic liver disease 病人常有具臨床意義的出血事件，並受到大多數 endogenous procoagulant factors 濃度降低影響，factor VIII 與 von Willebrand factor 除外。
+4. 評估 recombinant activated factor VII（rFVIIa）逆轉 chronic liver disease coagulopathy 的 randomized controlled trials 顯示，PT 明顯改善；但 rFVIIa 無法改變 liver transplantation 時的出血併發症，也無法控制 variceal hemorrhage 的出血。
+5. American Association for the Study of Liver Diseases（AASLD）2017 年更新的 cirrhosis portal hypertensive bleeding 治療指引，不建議使用 fresh frozen plasma 或 rFVIIa 校正 INR，因為 INR 不是 cirrhosis 中可靠的 coagulation 指標，而且缺乏改善預後的證據。此外，American Gastroenterological Association（AGA）2021 年 cirrhosis coagulation 指引指出，end-stage liver disease 相關的 hemostasis 變化具有複雜的平衡性質；INR 升高不一定能預測 cirrhosis 病人的出血結果。對於接受常見 GI procedures 的穩定 cirrhosis 病人（已知基準 coagulation parameters 異常），AGA 建議不要進行廣泛的術前檢驗（包括重複測量 PT／INR 或 Plt），也不要常規使用 blood products（例如 fresh frozen plasma 與 Plt）作為 bleeding prophylaxis。
+6. Global clotting tests（例如 thrombin generation test 或 TEG）可能可判定 chronic liver disease 的 coagulopathy，但不一定常規可用，最佳 transfusion thresholds 也尚未定義。
+
+### E. 復甦
+
+原稿 PDF 頁：[13](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=13)、[15](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=15)。
+
+1. 迅速辨識並矯正出血來源是 definitive treatment，例如 surgical exploration、angiographic embolization、stabilization of the pelvic ring，以及 damage control surgery。
+2. 液體
+a. 適應症：意識狀態下降或無法觸及 radial pulse（SBP <90 mm Hg）。
+b. 效益：恢復 intravascular volume、逆轉 tissue hypoperfusion，並矯正 oxygen debt。
+c. 風險：液體無法增加 oxygen-carrying capacity，可能引發 dilutional coagulopathy，並造成 tissue edema，包括發生 acute respiratory distress syndrome。
+d. Crystalloids：balanced crystalloids（例如 lactated Ringer solution）與 isotonic saline 都是建議的復甦液體。Isotonic saline 最常使用，但可能造成 hyperchloremic metabolic acidosis，進而導致 acute kidney injury。創傷病人使用 balanced crystalloids 與較少 hyperchloremia 有關，但尚不清楚是否能改善 morbidity 與 mortality。Hypertonic saline resuscitation 未能改善結果。
+e. Colloids：相較於 crystalloids，沒有額外效益。SAFE trial 的 severe brain injury 病人 subgroup analysis 發現，其與死亡率增加有關，可能因 hypo-osmolarity 所致。Synthetic colloids（例如 hydroxyethyl starches）會增加 coagulopathy 與 acute kidney injury 風險，因此應避免使用。
+f. 建議：hemorrhagic shock 適合使用 isotonic crystalloids。創傷病人初始應採 restricted volume replacement，通常使用少於 1.5 L 的 balanced crystalloid；head trauma 病人應避免 hypotonic solutions（例如 sodium 含量為 131 mmol/L 的 lactated Ringer），以減少液體移入 cerebral tissue。最新 European guidelines on managing major bleeding and coagulopathy after trauma 建議優先使用 isotonic balanced crystalloids，而非 saline。
+5. 復甦終點
+a. 一般建議包括 permissive hypotension；多數病人定義為 SBP 80–90 mm Hg，且尿量 >30 mL/hour。若以 SBP 與尿量作為終點，高達 85% 的病人可能復甦不足。
+b. Traumatic brain injury（TBI）病人應避免 permissive hypotension。2016 Brain Trauma Foundation guidelines 建議，15–49 歲或 >70 歲病人維持 SBP ≥110 mm Hg；50–69 歲病人維持 SBP ≥100 mm Hg。
+
+### F. 燒傷復甦
+
+原稿 PDF 頁：[15](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=15)、[16](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=16)。
+
+1. Acute thermal injury 引發 inflammatory state，最終造成 intravascular fluid 的 third spacing。
+3. 2008 American Burn Association（ABA）burn shock resuscitation practice guidelines 建議，以成人尿量 0.5–1 mL/kg/hour 為 fluid resuscitation 目標，初始速率依燒傷 total body surface area（TBSA）與體重決定。因缺乏強力證據，ABA 不建議以 invasive monitor 所測得的 preload 作為復甦目標，除非有特殊情況，例如高齡病人或治療反應不足。
+5. 實務上，燒傷病人實際接受的液體通常明顯超過傳統公式預測量。
+a. 在維持尿量 >0.5 mL/kg/hour 時，嚴重燒傷病人於最初 24 hours 平均接受約 6 mL/kg/% body surface area，可能造成「fluid creep」及過度復甦相關併發症。
+b. 因此，部分公式現主張較少初始液體，例如「modified」Brooke formula（2 mL/kg/% body surface area）。
+c. U.S. Army Institute of Surgical Research（USAISR）的 rule of 10（% TBSA burn × 10 = initial rate）是計算 fluid resuscitation 初始速率的簡化公式，後續速率調整依維持尿量 >0.5 mL/kg/hour 引導。
+7. 難以復甦：若病人液體需求超過傳統公式預期，可加入 albumin。加入時維持目前的輸液速率，但以 albumin 取代總速率的 33%–66%。High-dose ascorbic acid（例如 66 mg/kg/hr）已顯示可減少總液體需求，但指引指出，仍需更多證據才可建議常規使用此治療。
+
+### G. Blood Product Resuscitation
+
+原稿 PDF 頁：[16](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=16)、[17](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=17)。
+
+1. Lethal triad：hypothermia、acidosis 與 coagulopathy。
+a. Hypothermia、severe acidemia（pH <7.20）及 hypocalcemia 會抑制 procoagulant enzyme function。
+b. 因此，急性出血病人的治療應優先加溫至體溫 >93.2°F（34°C）、矯正 acidosis 至 pH >7.20，並給予 calcium，使 ionized calcium >4.4 mg/dL（1.1 mmol/L）。
+2. 初始出血與 coagulopathy 應以 blood component therapy（例如 plasma、platelets、cryoprecipitate）重建 whole blood，稱為 damage control resuscitation。
+a. 標準 massive transfusion protocols 至少採用 PRBCs／plasma／platelets 的 1:1:1 策略。
+b. Multicenter randomized PROPPR trial 在成人創傷病人中，比較 plasma／platelets／PRBCs 的 balanced 1:1:1 damage control resuscitation transfusion strategy 與 1:1:2 比例。
+i. 1:1:1 組接受 6 units plasma、1 dose platelets（6 units platelets）及 6 units PRBCs。輸血順序為先給 platelets，再交替給予 plasma 及 PRBC units。
+ii. 1:1:2 組初始容器及後續所有奇數編號容器含 3 units plasma、不含 platelets，以及 6 units PRBCs。第二個容器及後續所有偶數編號容器含 3 units plasma、1 dose platelets（6 units platelets）及 6 units PRBCs。輸血順序為先給 platelets，再交替給予 2 units PRBCs 與 1 unit plasma。
+iii. 24-hour mortality（1:1:1 組 12.7% vs. 1:1:2 組 17.0%；adjusted RR 0.75；95% CI 0.52–1.08；p=0.12）與 30-day mortality（22.4% vs. 26.1%；adjusted RR 0.86；95% CI 0.65–1.12；p=0.26）沒有顯著差異。
+iv. 不過，1:1:1 組有較多病人達成 hemostasis（86.1% vs. 78.1%；p=0.006），可能凸顯 early platelet transfusion 的重要性；因 exsanguination 死亡的比例也較低（9.2% vs. 14.6%；p=0.03）。
+
+### H. Massive Transfusion Protocol（MTP）
+
+原稿 PDF 頁：[17](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=17)、[18](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=18)。
+
+1. Massive transfusion 定義為 24 hours 內輸注 ≥10 units RBCs、1 hour 內輸注 3 units RBCs，或 30 minutes 內輸注任意 4 blood components。
+2. Focused Assessment with Sonography in Trauma（FAST）可評估疑似 abdominal 及 thoracoabdominal injuries 的創傷病人，並偵測 peritoneal、pleural 與 pericardial cavities 的出血。
+6. 一項納入 111 名病人的 prospective study 中，TEG-guided resuscitation 優於 standard laboratory coagulation-guided resuscitation：6-hour mortality（7.1% vs. 21.8%；p=0.032）與總死亡率（19.6% vs. 36.4%；p=0.049）較低，且復甦最初 2 hours 所需 plasma 與 platelets 較少。重要限制包括 single-center study design，以及 TEG 在該處可作為 point-of-care 檢查。
+**Table 4. Goal-Directed Resuscitation 範例**
+| Conventional Coagulation Assay（CCA） | Thromboelastography（TEG） |
+|---|---|
+| INR ≥1.5：2 units FFP | 初始 activated clotting time ≥140 s：2 units FFP、10 pack cryoprecipitate、1 unit apheresis platelets |
+| Fibrinogen <150 mg/dL：10 pack cryoprecipitate | Activated clotting time >111–139 sᵃ：2 units FFP |
+| Plt <100,000/mm³：1 unit apheresis platelets | Alpha angle <63：10 pack cryoprecipitate |
+| D-dimer >0.5 mcg/mL：1 g tranexamic acid | MA <55 mm：1 unit apheresis platelets |
+| | LY30ᵇ >3%：1 g tranexamic acid |
+ᵃ相當於 R-time >10。
+ᵇLY30 反映 fibrinolysis，類似 estimated percent lysis。
+FFP = fresh frozen plasma；LY30 = 30 minutes 後 amplitude 下降百分比；MA = maximum amplitude；Plt = platelets。
+Information from: Gonzalez E, Moore EE, Moore H, et al. Goal directed resuscitation of trauma induced coagulopathy: a pragmatic randomized clinical trial comparing a viscoelastic assay to conventional coagulation assay. Ann Surg 2016;263:1051-9.
+
+### I. Antifibrinolytics
+
+原稿 PDF 頁：[19](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=19)、[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=20)。
+
+1. Tranexamic acid
+a. 一種結合 plasminogen、預防 fibrin clot 溶解的 antifibrinolytic agent。Tranexamic acid 為 plasmin 與 plasminogen 的 competitive inhibitor。
+b. CRASH-2 trial：
+i. 在受傷後 8 hours 內、有顯著出血或顯著出血風險的成人創傷病人中，評估 tranexamic acid 與 placebo（0.9% saline）的效果。Tranexamic acid（loading dose 1 g，於 10 minutes 內給予，接著於 8 hours 內輸注 1 g）相較於 placebo，降低創傷 all-cause 28-day mortality（relative risk［RR］0.91；95% CI 0.85–0.97；p=0.0035）。
+ii. Number needed to treat 為 67，兩組 vascular occlusive events 風險沒有差異。
+iii. 另一篇 exploratory analysis 顯示，受傷後 3 hours 內給予 tranexamic acid 的效益最大：受傷 ≤1 hour 時 RR 0.68（95% CI 0.57–0.82；p<0.0001）；受傷後 1–3 hours 時 RR 0.79（95% CI 0.64–0.97；p=0.03）。受傷超過 3 hours 給予則增加出血死亡風險（RR 1.44；95% CI 1.12–1.84；p=0.004）。
+iv. 主要限制為來自 modern trauma systems 地區（例如可取得 blood products、具 massive transfusion protocol）的病人較少，而且 baseline mortality 高於北美或歐洲的預期。
+c. CRASH-3 trial：
+i. 評估 tranexamic acid（與 CRASH-2 相同劑量）在 TBI 病人的效果。病人於受傷 <3 hours 納入，條件為 Glasgow Coma Scale（GCS）score <13，或 CT 顯示 intracranial hemorrhage，且無 major extracranial bleeding。
+ii. Tranexamic acid（18.5%）與 placebo（19.8%）在 28 days 內 head injury–related death 沒有差異（RR 0.94；95% CI 0.86–1.02）。
+iii. Tranexamic acid 降低 mild-to-moderate TBI、GCS 9–15 病人的死亡（RR 0.78；95% CI 0.64–0.95），但對 severe head injury、GCS 3–8、治療前已存在廣泛 intracranial hemorrhage 的病人沒有此效果（RR 0.99；95% CI 0.91–1.07）。
+iv. CRASH-3 病人比 CRASH-2 更嚴重；head injury–related death 分別為 CRASH-2 的 12% 與 CRASH-3 的 19%。
+d. MATTERs（Military Application of Tranexamic Acid in Trauma Emergency Resuscitation）study 中，tranexamic acid 與所有病人的 in-hospital mortality 絕對下降 6.5% 有關；需要 massive transfusion 者絕對下降 13.7%，提示受傷更嚴重者可能有較大效益。
+e. MATTERs II trial 中，在 tranexamic acid 加上 fibrinogen（cryoprecipitate），相較於 tranexamic acid 單用，進一步改善 in-hospital mortality（11.6% vs. 18.2%；p=0.03）。
+f. 在創傷中，tranexamic acid 尚未顯示可減少輸血需求。
+g. 創傷使用 tranexamic acid 的相關建議：
+i. 若要給予，應儘早給予有出血的創傷病人；對有顯著 hemorrhage 風險者，應於受傷後 3 hours 內給予。Loading dose 1 g，於 10 minutes 內輸注，接著 intravenous infusion 1 g，於 8 hours 內輸注。
+ii. 部分醫療系統已開始在到院前給予 tranexamic acid loading dose，以避免 fibrinolysis 完全活化；受傷後 1 hour 內給予 loading dose 時，結果較佳。此策略仍需 clinical trial 驗證。
+iii. 創傷病人使用 tranexamic acid 的額外安全疑慮：
+(a) 初始試驗雖未顯示，後續發現 tranexamic acid 與 thrombotic events 有關，包括 PE 及 venous thromboembolism（MATTERs trial）。
+(b) Tranexamic acid 也可能與 fibrinolysis shutdown 有關；此為 fibrinolysis 受抑制的狀態，與 multiorgan failure 所致高死亡率有關。
+iv. 因先前試驗的批評與潛在安全疑慮，部分專家主張僅對診斷為 hyperfibrinolysis 的特定病人使用 tranexamic acid，但沒有 selective use 的研究顯示結果改善。
+v. 美國 Eastern Association for the Surgery of Trauma（EAST）damage control resuscitation guidelines，有條件建議以 tranexamic acid 作為重傷創傷病人的 hemostatic adjunct。
+h. Postpartum hemorrhage 的 tranexamic acid：
+i. WOMAN trial 中，tranexamic acid 1-g bolus（可於 30 minutes 後重複）不影響 all-cause mortality；但若於 3 hours 內給予，相較於 placebo，可降低 postpartum hemorrhage 死亡率（1.2% vs. 1.7%；RR 0.69；95% CI 0.52–0.91；p=0.008）。
+ii. World Health Organization 強烈建議 postpartum hemorrhage 於 3 hours 內給予 tranexamic acid。
+i. WOMAN 與 CRASH-2 trials 的整合分析評估 early tranexamic acid 的重要性。給予 tranexamic acid 每延遲 15 minutes，整體效益約下降 10%，凸顯早期給藥的重要。
+j. Cardiac surgery 中，perioperative tranexamic acid 減少 blood product transfusions 與 major hemorrhage，未增加 thrombotic complications 所致死亡風險，但增加 seizures 風險（0.7% vs. 0.1%；p<0.01）。
+i. 此研究使用的 tranexamic acid 50–100 mg/kg，遠高於創傷的使用劑量。
+ii. Seizures 風險增加可能是 cardiac surgery 特有，因為 cardiac surgery 後的 stroke 與 seizures 風險，即使不使用 tranexamic acid 也曾被報告。
+2. Aminocaproic acid
+a. 一種 lysine analog，效力比 tranexamic acid 弱 10 倍。
+b. 建議劑量為 150-mg/kg bolus，接著 15-mg/kg/hour infusion。
+c. 相較於 tranexamic acid，aminocaproic acid 可能有較多 adverse drug reactions，包括快速給藥時的 hypotension 與 bradycardia，以及 rhabdomyolysis。
+d. Aminocaproic acid 用於急性出血病人的證據品質較低。
+
+### J. Recombinant Activated Factor VIIa（rFVIIa）
+
+原稿 PDF 頁：[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=20)、[21](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=21)。
+
+1. 透過 coagulation cascade 的 extrinsic pathway 活化 hemostasis：與 tissue factor 作用，使 factor X 活化為 factor Xa、factor IX 活化為 factor IXa。須有足夠 platelets 與 fibrinogen 濃度支持其活性。
+4. 對 rFVIIa 用於 acute bleeding 沒有共識。各院 protocol 在適應症、時機、劑量及重複給藥上不同。
+5. Database reviews 記錄到，rFVIIa 用於 non-hemophilia indications 的 off-label use，與 venous 及 arterial thromboembolic events 發生率增加有關。
+6. 創傷中，僅在已採取所有其他止血方法並改善生理環境（包括矯正 acidosis、hypothermia 及 hypocalcemia）後，major bleeding 與 traumatic coagulopathy 仍持續時，才應考慮 rFVIIa。
+
+### K. Prothrombin Complex Concentrates（PCCs）
+
+原稿 PDF 頁：[21](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=21)、[22](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=22)。
+
+1. 為濃縮 clotting factors II、VII、IX、X，以及 proteins C、S 的組合。
+a. 美國有 4 種 PCC。PCC 的 factor content 各異，尤其是 factor VII（Table 5）。
+b. FEIBA（factor eight inhibitor bypassing activity）是唯一含 activated clotting factors 的 PCC，因此屬 activated prothrombin complex concentrate（aPCC）。雖然理論上效力較佳，也可能增加 thrombotic events。
+2. Kcentra 為 nonactivated 4F-PCC，具有 U.S. Food and Drug Administration（FDA）核准適應症：在危及生命的 hemorrhage，或緊急手術／invasive procedures 時，逆轉 warfarin-related acute bleeding disorders（下文 Reversal of Oral Anticoagulant Agents 詳述）。
+a. 不適用於 hemophilia-related bleeding，因為已有其他 PCC products 核准此適應症。
+b. Package insert 警告 Kcentra 增加 thromboembolic risk。因產品含 heparin，已知 heparin-induced thrombocytopenia 病人禁用。
+c. 支持 PCC 作為原先未接受 anticoagulation 的出血病人 hemostatic agent 的 off-label data 有限，但研究興趣與證據持續增加。
+i. RETIC trial 在出血創傷病人中比較 PCC 加 concentrated fibrinogen 與 plasma；因 plasma 組需要 rescue therapy 及 massive transfusion 的比例高，產生安全疑慮而提前終止。
+ii. PROCOAG randomized clinical trial 是在法國 12 家指定 level I trauma centers 進行的 double-blind、randomized、placebo-controlled superiority trial，納入 324 名有 massive transfusion 風險的病人，給予 intravenous 4F-PCC 或 saline solution。Primary outcome 為 24-hour 所有 blood products 用量；secondary outcome 為 arterial 或 venous thromboembolic events。兩組總 24-hour blood product 用量沒有統計或臨床顯著差異：4F-PCC 組中位數 12 units，placebo 組 11 units，absolute difference 0.2 units（95% CI −2.99 至 3.33；p=0.72）。4F-PCC 組 thromboembolic events 較多；35% 病人至少發生 1 次事件，placebo 組為 24%。Absolute difference 11%（95% CI 1%–21%），RR 1.48（95% CI 1.04–2.10；p=0.03）。結果不支持在此類病人常規使用 4F-PCC。
+iii. 雖然美國較少以 coagulation factor concentrates（CFCs）進行 hemostatic resuscitation，2019 European trauma guidelines 仍建議 CFCs 作為 plasma 的替代方案。
+**Table 5. 美國可取得 PCC 的 Factor Content**
+| 種類／產品 | Factor II（IU） | Factor VII（IU） | Factor IX（IU）ᵃ | Factor X（IU） | Additivesᵇ | Vial dose（估計 factor IX IU） |
+|---|---:|---:|---:|---:|---|---|
+| 3-factor PCCᶜ／Bebulin VH | 100 | <5 | 100 | 100 | Trace heparin | 200–1200 |
+| 3-factor PCCᶜ／Profilnine | 150 | 35 | 100 | 100 | N/A | 500、1000、1500 |
+| 4F-PCCᵈ／Kcentra | 106.9 | 55.1 | 100 | 141.4 | Protein C、S、Z，antithrombin III，heparin | 500、1000 |
+| aPCCᵉ／FEIBA | 91.7–125 | 68–135 | 100 | 80–93.3 | Protein C | 500、1000、2500 |
+ᵃ以每 100 IU factor IX 對應的 international units（IU）表示。個別 factor content 隨 vial size 不同；可將所需 individual factor content 乘上 vial dose，再除以 100 IU factor IX equivalent 計算。
+ᵇ部分 PCC products 加入 anticoagulant factors，以減弱過度 thrombogenicity。
+ᶜ因 factor VII 含量有限，視為 3-factor PCC。
+ᵈ因有顯著 factor VII 濃度，視為 4-factor PCC（4F-PCC）。
+ᵉFEIBA 為 aPCC，主要含 nonactivated factors II、IX、X；factor VII 主要為 activated form。
+FEIBA = factor eight inhibitor bypassing activity；N/A = not applicable。
+Information from: Frontera JA, Lewin JJ, Rabinstein AA, et al. Guideline for reversal of antithrombotics in intracranial hemorrhage. Neurocrit Care 2016;24:6-46; FEIBA NF [prescribing information]. Baxter Healthcare, 2011.
+
+### L. Oral Anticoagulant Agents 的逆轉（Table 6）
+
+原稿 PDF 頁：[23](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=23)、[24](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=24)、[25](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=25)、[26](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=26)、[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=27)、[28](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=28)。
+
+1. 病人選擇
+a. 評估 oral anticoagulants 病人的出血嚴重度，對指導逆轉決策至關重要。
+b. American College of Cardiology（ACC）2020 expert consensus decision pathway 建議，在 major bleed 考慮 anticoagulation reversal；major bleed 通常定義為 critical site 出血、hemodynamic instability，或 clinically overt bleeding。
+i. Critical bleed site：
+(a) Critical site 出血可損害 organ function、造成 severe disability，且可能需要 surgical intervention。
+(b) 部位包括 intracranial、其他 central nervous system（spinal、ocular）、thoracic（例如 pericardial tamponade、hemothorax）、intra-abdominal、retroperitoneal、伴 respiratory distress 的 airway bleeding，以及造成 compartment syndrome 的 extremity bleeding（例如 intraarticular、intramuscular）。
+(c) Intraluminal GI bleeding 不屬 critical site；但仍可能依 hemodynamic 或 overt bleeding criteria 判定為 major bleed。
+ii. Hemodynamic instability 定義為 mean arterial pressure（MAP）<65 mm Hg、SBP <90 mm Hg、SBP 降低至少 40 mm Hg，或 orthostatic blood pressure changes（站立時 SBP 降低至少 20 mm Hg、diastolic blood pressure［DBP］降低至少 10 mm Hg）。
+iii. Overt bleeding 若伴 24 hours 內 hemoglobin 降低至少 2 g/dL，或需給予至少 2 units PRBCs，與 mortality 增加有關，尤其在 chronic cardiovascular disease 病人。
+iv. Major bleed 的處置建議：
+(a) 停止 anticoagulant、manual compression、supportive care、評估與處置可能促成出血的 comorbidities（例如 thrombocytopenia、uremia、liver disease、antiplatelets），並考慮對出血部位進行 surgical 或 procedural management。
+(b) Critical site 出血或造成 hemodynamic instability 時，適合進行 specific anticoagulation reversal。Overt bleeding 建議先採初始止血處置；若先前措施無法控制出血，再進行逆轉。
+3. Direct oral anticoagulants（DOACs）—dabigatran／apixaban／rivaroxaban／edoxaban：
+a. 尚無與 DOAC anticoagulation activity 呈直接線性關係、可臨床使用的 coagulation assays（Table 6）。
+b. 因此，初始逆轉應依 clinical bleeding 與已知 DOAC 使用狀況引導，而不是 coagulation assays。
+c. End-organ function 正常者的 DOAC half-life 相對較短，故確認最後給藥時間對判定藥物是否促成出血至關重要。一般而言，若最後一劑後已超過 3–5 half-lives，可能不需逆轉（Table 6）。
+**Table 6. Oral Anticoagulants 整理**
+| 項目 | Warfarin | Dabigatran | Apixaban | Rivaroxaban | Edoxaban |
+|---|---|---|---|---|---|
+| 作用 | Vitamin K antagonist | Direct factor IIa inhibitor | Direct factor Xa inhibitor | Direct factor Xa inhibitor | Direct factor Xa inhibitor |
+| Peak action | 4–5 days | 約 2 hr | 約 2 hr | 約 2 hr | 1–2 hr |
+| Half-life（hr），CrCl >80 | >48 hr | 12–14 | 5–9 | 8–15 | 8.5 |
+| Half-life（hr），CrCl 50–79 | >48 hr | 17 | 9 | 15 | 9 |
+| Half-life（hr），CrCl 30–49 | >48 hr | 19 | 9 | 18 | 9 |
+| Half-life（hr），CrCl <30 | >48 hr | 28 | 10 | 17 | 9.5 |
+| Clinical coagulation monitoring | Protime／INR：quantitative | aPTT 與 TT：qualitative；ECT 與 dilute TT：quantitative | Protime 對 apixaban 不敏感 | 經驗證的 Protime 可 qualitative | 經驗證的 Protime 可 qualitative |
+Factor Xa inhibitors 的 chromogenic anti-Xa 為 quantitative；heparin 或 low-molecular-weight heparin assay 為 qualitative。
+Anti-Xa = anti-factor Xa；CrCl = creatinine clearance，以 mL/min/1.73 m² 報告；ECT = ecarin clotting time；TT = thrombin time。
+Information from: Dager WE. Developing a management plan for oral anticoagulation reversal. Am J Health Syst Pharm 2013;70:S21-31.
+d. 最後一劑給予後 <2 hours 可考慮 activated charcoal。Apixaban 有顯著 enterohepatic recirculation，因此最後一劑後最多 6 hours 仍可給 charcoal。
+e. Dabigatran reversal：idarucizumab 已獲 FDA 核准用於 dabigatran reversal。
+i. Idarucizumab 是 monoclonal antibody，可直接結合 bound 與 unbound dabigatran；其 affinity 為 thrombin 的 >350 倍。
+ii. 在 503 名危及生命 hemorrhage 或需 urgent procedure 病人的完整分析中，所有接受 idarucizumab 5 g intravenously 者，於給藥後 4 hours 內均達 maximum dilute TT reversal。Dabigatran 的 volume of distribution >50 L，約 23% 病人在 12–24 hours 發生 unbound dabigatran redistribution 及相關 coagulopathy。此情境下重複給藥的有效性尚未確立。Package insert 建議，若有 clinically relevant bleeding（或需第二次 emergency surgery／urgent procedure），且 coagulation parameters 升高（例如 aPTT、ecarin clotting time），可考慮追加 idarucizumab 5 g。因此，重複給藥前應檢測 aPTT，以排除 dabigatran 存在。
+iii. 90-day thrombotic event rate 為 6.8%。72 hours 內的所有 thrombotic events，均發生在未重新開始 anticoagulation 的病人（也與 45 minutes 的 half-life 有關）。
+iv. 因已有 idarucizumab，dialysis 等輔助逆轉僅應在依 renal function 同時有其他適應症，或 idarucizumab 無效時考慮。
+f. Factor Xa inhibitors：andexanet alfa 已獲 FDA 核准，用於危及生命 hemorrhage 的 rivaroxaban 與 apixaban reversal。
+i. Andexanet alfa 是 modified factor Xa decoy protein，以 1:1 比例直接結合 factor Xa inhibitors，使 anticoagulant response 失活。
+(a) 結構修飾使 andexanet alfa 本身不具有 prothrombotic 或 antithrombotic effects。
+(b) Active serine site 的突變，使 andexanet 缺乏將 prothrombin 轉為 thrombin 所需的 catalytic activity。
+(c) GLA fragment 的刪除使 andexanet 無法結合 phospholipids，也無法與 factor V 及 calcium 作用形成 prothrombinase complex。
+ii. Andexanet alfa 可逆轉 direct（DOAC）與 indirect（low-molecular-weight heparin）factor Xa inhibitors 的效果。
+iii. ANNEXA-4 trial 評估 andexanet alfa 用於 acute major bleeding、近期服用 factor Xa inhibitors 的病人，主要為 apixaban 與 rivaroxaban。
+(a) 初始 andexanet bolus 後，anti-factor Xa（anti-Xa）activity 相對 baseline 降低 90%–92%，並在研究藥物 2-hour infusion 期間維持，使 hemostatic plug 能形成。
+(b) 僅 72% 病人達預先定義的 anticoagulation activity threshold，可納入 efficacy analysis：DOAC baseline anti-Xa ≥75 ng/mL，或 enoxaparin ≥0.25 IU/mL。
+(c) 重要限制是排除預期 12 hours 內需 surgery 的病人，而這是治療出血病人常見的族群。
+iv. Andexanet alfa half-life 短（1 hour），停藥後 redistribution 及相關 anticoagulant activity 常見。
+(a) 理論上，這 2-hour interval 使 hemostatic plug 形成並止血。
+(b) ANNEXA-4 trial 的 anti-Xa activity 有 rebound；停 infusion 2 hours 後，相較 baseline 僅降低 32%–42%。
+(c) 不過 12 hours 時，82% 病人達到 good 或 excellent clinical hemostasis 的 co-primary endpoint，對 rebound effect 的臨床意義提出疑問。仍需研究其在 ongoing bleeding、critical site bleeds 或 surgical populations 的重要性。
+v. 臨床使用 andexanet 的預期限制：
+(a) ANNEXA-4 最大限制是 lack of control group，難以判定 andexanet 對 patient-centered outcomes 的影響。
+(b) 因僅 72% 病人符合 efficacy analysis 條件，結果可能高估一般族群的效果。
+(c) 主要疑慮之一是 laboratory reversal duration 相對較短，因 andexanet alfa half-life 短，且與 anti-Xa inhibitors 的結合可逆。
+(d) 對 andexanet infusion 結束後仍有 clinical bleeding evidence 的病人，其影響，以及是否需要重複劑量或延長 infusion，尚不清楚。
+(e) 試驗排除需 surgery 及 severe brain injury 病人（平均 GCS score 為 14）。Short-term reversal 對這些 high-acuity populations 的影響可能更大。
+vi. Andexanet alfa 的安全性：
+(a) 10% 研究族群有 thrombotic event，多發生於開始 therapeutic anticoagulation 前。
+(b) Andexanet alfa 會結合 tissue factor pathway inhibitor，這是一種 endogenous factor Xa inhibitor。
+(c) 此比例通常高於出血病人使用其他 reversal agents，包括 warfarin reversal 的 PCCs（7%–8%），以及 dabigatran reversal 的 idarucizumab（6.35%–7.4%）。
+(d) 須了解 population risk 差異會干擾 cross-study comparisons；更新的 ANNEXA-4 analysis 中 intracranial hemorrhage 族群比例至少為其他 reversal studies 的 2 倍。在此情境下，重新引入 anticoagulation 可能延後。
+vii. Andexanet alfa dosing 複雜（Table 7），需依原有 anticoagulant 及最後一劑時間個別化。例如 rivaroxaban 達到較高 serum concentrations，因此近期給予 rivaroxaban 所需 andexanet doses 高於 apixaban。
+viii. 雖可能對所有 direct 及 indirect anti-Xa inhibitors 有效，andexanet alfa 僅獲 FDA 核准用於危及生命或 uncontrolled bleeding 的 apixaban 與 rivaroxaban reversal。
+(a) 用於其他 anticoagulant-related bleeding 屬 off-label，整體支持證據較低。
+(b) 用於 edoxaban 或 enoxaparin 的研究劑量為 high dose。
+g. DOAC reversal antidotes 由 FDA 以 Fast Track designation 審查。
+i. 因 antidote trials 將病人隨機分配至 placebo 不合倫理，建立 efficacy 與 safety 的研究均為 single-arm trials。
+ii. FDA 要求 intracranial hemorrhage 病人的 anti-Xa reversal，應比較 andexanet alfa arm 與 usual care arm。ANNEXA-I study（NCT03661528）旨在比較兩者治療 intracranial hemorrhage 的有效性。教材出版時完整結果尚未報告；會議初步結果顯示，研究相較 standard care 達預定 hemostatic efficacy criteria，因此依 planned interim analysis 提前終止。不過研究也發現 andexanet alfa 的 thrombotic events（包括 ischemic stroke 與 myocardial infarction）高於 usual care。
+iii. 因此，這些 novel antidotes 是否能改善危及生命 hemorrhage 中 anticoagulants 相關 morbidity 或 mortality，仍未知。
+h. PCCs 用於 DOAC reversal
+i. Novel antidotes 發展前，PCCs 與 aPCCs 傳統上以 off-label 作為 nonspecific DOAC reversal agent。
+ii. 支持資料主要為 in vitro animal models、ex vivo human samples 及 healthy volunteer subjects 的 factor Xa inhibitors laboratory reversal。這些試驗有重要限制且結果不一致。
+iii. 近期研究依特定時間的 hemostatic response，發現 PCC 可有效逆轉出血病人的 anti-Xa inhibitors，但受 single-arm observational design 及 lack of laboratory reversal analysis 限制。
+iv. PCC 未一致顯示可逆轉 dabigatran 相關 laboratory values。
+v. Andexanet alfa 可用前，多個 guidelines 建議 anti-Xa reversal 給予 4F-PCC 或 aPCC 25–50 units/kg。隨著 andexanet alfa 與 usual care 的更強比較資料出現，guidelines 可能持續更新。臨床人員應審慎考慮 andexanet alfa reversal duration 不持久，以及 emergency surgical procedures 缺乏資料。
+**Table 7. 危及生命 Hemorrhage 的 Anticoagulant Reversal Agent 劑量**
+| Anticoagulant／情境 | Reversal agent | 劑量 |
+|---|---|---|
+| Warfarin，INR 升高 | 4F-PCC | INR 2 至 <4：25 units/kg（max 2500 units）；INR 4–6：35 units/kg（max 3500 units）；INR >6：50 units/kg（max 5000 units） |
+| Dabigatran，預期 3–5 half-lives 內 | Idarucizumab | 5 g IV push，一次；重複 5 g 的資料有限 |
+| Factor Xa inhibitor，預期 3–5 half-lives 內 | Andexanet alfa | Low dose：400-mg bolus，目標速率 30 mg/min，接著 4 mg/min ×120 min；high dose：800-mg bolus，目標速率 30 mg/min，接著 8 mg/min ×120 min。最後一劑時間不明時，採用服藥後 8 hr 內的適當劑量 |
+| Rivaroxaban ≤10 mg | Andexanet alfa | Low dose |
+| Rivaroxaban >10 mg，8 hr 內 | Andexanet alfa | High dose |
+| Rivaroxaban >10 mg，≥8 hr 後 | Andexanet alfa | Low dose |
+| Apixaban ≤5 mg | Andexanet alfa | Low dose |
+| Apixaban >5 mg，8 hr 內 | Andexanet alfa | High dose |
+| Apixaban >5 mg，≥8 hr 後 | Andexanet alfa | Low dose |
+| Edoxaban／enoxaparin，任何時間 | Andexanet alfa | High dose；off-label |
+| Direct 與 indirect anti-Xa inhibitors | 4F-PCC／aPCC | 25–50 units/kg；off-label |
+IV = intravenous(ly)。
+Information from: Sarode R, Milling TJ, Refaai MA, et al. Efficacy and safety of 4-factor prothrombin complex concentrate in patients on vitamin K antagonists presenting with major bleeding: a randomized, plasma-controlled, phase IIIb study. Circulation 2013;128:1234-43; Pollack CV, Reilly PA, Eikelboom J, et al. Idarucizumab for dabigatran reversal. N Engl J Med 2015;373:511-20; and Connolly SJ, Milling TJ, Eikelboom JW, et al. Andexanet alfa for acute major bleeding associated with factor Xa inhibitors. N Engl J Med 2016;365:1131-41.
+
+### M. Antiplatelet Agents 的逆轉（Table 8）
+
+原稿 PDF 頁：[28](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=28)、[29](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=29)。
+
+1. Antiplatelet agents 對 traumatic bleeding 的影響仍有爭議。
+4. Desmopressin 增強 platelet adherence 與 aggregation。
+a. 臨床有效性雖有爭議，可考慮 desmopressin 0.3–0.4 mcg/kg intravenously，以逆轉 platelet-inhibiting drugs 或治療 von Willebrand disease，但不應常規用於出血的創傷病人。若給予 desmopressin，2019 European trauma guidelines 建議同時給予 antifibrinolytic（例如 tranexamic acid）。
+b. Serious adverse effects 風險低，包括 hypervolemia、hyponatremia、facial flushing，以及罕見 thrombosis。
+**Table 8. 危及生命 Hemorrhage 的 Antiplatelet Reversal**
+| Generic drug（trade name）／Mechanism of action | Usual half-life（hr） | Platelet inhibition 持續時間 |
+|---|---:|---|
+| Aspirin：抑制 platelet activation；不可逆抑制 COX-1 與 COX-2 enzymes | 3 | Platelets 的壽命，5–7 days |
+| Dipyridamole ± aspirin（Aggrenox、Persantine）：抑制 platelet activation；增加 endogenous adenosine | 10–12 | Dipyridamole 2–3 days；aspirin 為 platelets 壽命，5–7 days |
+| Clopidogrel（Plavix）：抑制 platelet activation；active metabolite 不可逆阻斷 ADP | 6 | Platelets 壽命，5–7 days |
+| Prasugrel（Effient）：抑制 platelet activation；active metabolite 不可逆阻斷 ADP | 2–15 | Platelets 壽命，5–7 days |
+| Ticagrelor（Brilinta）：抑制 platelet activation；可逆阻斷 ADP | 7–9 | 3–5 days |
+Coagulation assay effects：最佳 platelet function assay 與 thresholds 仍有爭議。Light transmission platelet aggregation 是 platelet function testing 的 gold standard，但不常規可用。可使用 TEG with platelet mapping、VerifyNow、platelet function analyzer 及 bleeding time。
+建議：active 或 recent（3 mo 內）coronary artery disease 病人的 antiplatelet reversal 應謹慎。
+Reversal strategies：
+- Platelets*：neurosurgical hemorrhage 給 1 apheresis unit（moderate quality of evidence）。若不需 neurosurgery，platelet transfusions 有爭議，Neurocritical Care Society 不建議（low quality of evidence）。
+- 及／或 desmopressin（DDAVP）0.4 mcg/kg IV push，一次（low quality of evidence）。
+*使用 ticagrelor 時，輸入的 platelets 可能因 P2Y12 receptor 的可逆作用而被抑制。
+AA = arachidonic acid；ADP = adenosine diphosphate；COX = cyclooxygenase。
+Information from: Levi M, Eerenberg E, Kamphuisen PW, et al. Bleeding risk and reversal strategies for old and new anticoagulants and antiplatelet agents. J Thromb Haemost 2011;9:1705-12; Mega J, Simon T. Pharmacology of antithrombotic drugs: an assessment of oral antiplatelet and anticoagulant treatments. Lancet 2015;386:281-91; Spahn D, Bouillon B, Cerny V, et al. The European guideline on management of major bleeding and coagulopathy following trauma: fifth edition. Crit Care 2019;23:98; Frontera JA, Lewin JJ, Rabinstein AA, et al. Guideline for reversal of antithrombotics in intracranial hemorrhage. Neurocrit Care 2016;24:6-46.
+
+## II. OBSTRUCTIVE SHOCK
+
+### A. 病因與流行病學
+
+原稿 PDF 頁：[30](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=30)。
+
+1. Obstructive shock 因 cardiovascular system 血流受到 extracardiac obstruction 而發生。
+2. Extracardiac obstruction 可來自 impaired diastolic filling（例如 cardiac tamponade、tension pneumothorax 或 constrictive pericarditis），或 impaired systolic contraction（例如 massive PE、acute／chronic PH 或 aortic dissection）。
+3. Obstructive shock 相對罕見；需要 vasoactive medications 的病人僅約 2% 屬此類型。
+
+### B. 病理生理學
+
+原稿 PDF 頁：[30](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=30)、[31](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=31)。
+
+1. Obstructive shock 的 pathophysiologic hemodynamic hallmark 是 CO 降低。
+2. 特定 pathophysiologic derangements 依 extracardiac obstruction 病因不同，但可概括如下：
+a. Impaired diastolic filling 時，venous return 受抑制，使 RV preload 顯著降低。
+i. Cardiac tamponade 時，pericardium 內液體累積使 pericardial pressure 增加。
+ii. 因此左右心 diastolic pressures 上升並趨於相等，包括 central venous pressure（CVP）、pulmonary artery diastolic pressure 與 pulmonary capillary wedge pressure（PCWP）相等，且 ventricular filling 受損。CVP 及 PCWP 升高不應誤認為 ventricular volume（preload）增加。
+b. Impaired systolic function 時，ventricular afterload 急性增加，導致 ventricular failure。
+i. 常見於 massive PE 或 acute PH 造成 RV afterload（pulmonary vascular resistance）急性增加。
+ii. LV afterload 急性增加通常不會導致 shock。
+iii. RV afterload 急性增加使 RV CO 降低，接著 LV CO 降低。隨後 systemic hypotension 使 RV tissue perfusion 降低（right coronary artery perfusion 減少）、RV free wall ischemia、RV free wall contractility 降低，進一步損害 RV CO，形成 vicious cycle。
+iv. 此外，acute RV pressure overload 使 intraventricular septum 移向 LV，損害 LV diastolic filling（因 intraventricular dependence），進一步降低 LV CO。
+
+### C. 復甦與治療
+
+原稿 PDF 頁：[31](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=31)、[32](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=32)、[33](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=33)、[34](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=34)、[35](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=35)、[36](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=36)。
+
+1. Fluid administration 與 vasoactive medications 可作為暫時措施，增加 tissue perfusion。
+a. 通常建議 intravenous fluids（一般為 crystalloids），但不一定改善 CO。
+i. Cardiac tamponade：原有 hypovolemia 者可能對液體有反應，但一般而言，給液未必改善 hemodynamics；儘管如此，通常仍建議給液。
+ii. Massive PE：初始給液可改善 CO，但需謹慎；過量可能造成進一步 RV dilation，並因 septal shifting 加劇及 LV filling 減少（intraventricular dependence）而損害 LV CO。
+iii. Acute／chronic PH：fluid optimization 有挑戰。部分病人，如有 intravascular volume depletion 徵象者，可能需要液體；其他病人即使使用 vasoactive medications，仍可能需 diuretics 減少 RV dilation 並改善 LV filling。
+b. 應開始 vasopressors，提高 MAP 並維持足夠 perfusion pressure。
+i. Massive PE 尤其重要，足夠 right coronary artery perfusion 是預防／減少 RV free wall ischemia 的關鍵。
+ii. 須謹慎，catecholamine vasopressors 可能增加 pulmonary vascular resistance，惡化 RV dysfunction。
+c. Inotropes 可能增加 massive PE 或 acute／chronic PH 的 RV CO，但 tamponade 時可能無效。
+d. Inhaled nitric oxide 或 aerosolized prostacyclin therapy 可能降低 acute／chronic PH 的 RV afterload，但兩者對 massive PE 或 cardiac tamponade 可能無效。
+2. Extracardiac obstruction 的 definitive treatment 最重要。
+a. Impaired diastolic filling
+i. Cardiac tamponade：pericardiocentesis 或 surgical evacuation，可能放置 drain。
+ii. Tension pneumothorax：needle decompression，可能施行 chest tube thoracostomy。
+b. Impaired systolic function（massive PE）：使 embolism 溶解（thrombolytic therapy）或移除（surgical／catheter thrombectomy）。
+i. Thrombolytic agents（Table 9）結合 plasminogen／plasmin complex，可位於循環中或結合於 clot surface。
+ii. 此結合會水解 peptide bond，形成 free plasmin。Circulating plasmin 很快被 α-antiplasmin 中和，但 fibrin-bound plasmin 會接著水解 clot matrix 內的鍵結，造成 clot lysis。
+iii. 因此，thrombolytic agents 可快速溶解 PE，降低 RV afterload（pulmonary vascular resistance），但也可能造成出血。
+**Table 9. Acute PE 的 Thrombolytic Agents**
+| 藥物 | 初始劑量 | Infusion | 重點 |
+|---|---|---|---|
+| Alteplaseᵃ | 10 mg over 10 min | 90 mg over 2 hr；總劑量 100 mg infused over 2 hr | Fibrin selective；half-life 5 min；cardiac arrest 劑量可為 50 mg |
+| Reteplaseᵇ | 10 units IV push over 2 min，共 2 劑，間隔 30 min | — | Fibrin selective；half-life 13–16 min |
+| Tenecteplaseᵇ | <60 kg：30-mg push over 5–10 s；61–70 kg：35-mg push；71–80 kg：40-mg push；81–90 kg：45-mg push；>91 kg：50-mg push | N/A | Fibrin selective（相較 alteplase 14 倍）；half-life 90–130 min；僅需 bolus dose；比 alteplase 便宜 |
+| Streptokinaseᵃ | 250,000 units over 30 min | 100,000 units/hr over 24 hr | Nonselective；antigenic |
+| Urokinaseᵃ | 4400 units/kg over 10 min | 4400 units/kg/hr over 12 hr | Nonselective |
+ᵃ表示 FDA 核准治療 PE。ᵇ表示未獲 FDA 核准治療 PE。Tenecteplase 體重區間保留原表，原表未明列 60 kg 與 91 kg。
+PE = pulmonary embolism。
+Information modified from: Daley MJ, Lat I. Clinical controversies in thrombolytic therapy for the management of acute pulmonary embolism. Pharmacotherapy 2012;32:158-72.
+iv. 2004 meta-analysis 在所有 PE 病人中比較 thrombolytic agents 與 heparin alone，未顯示 mortality 降低（6.7% vs. 9.6%；OR 0.67；95% CI 0.40–1.12），但高死亡風險病人的結果可能改善。因此，early PE-related mortality risk stratification 是指導 thrombolytic administration 的必要步驟。
+(a) High-risk 或 massive PE。2011 American Heart Association（AHA）guidelines 定義依 acute PE 所致 hemodynamic changes，而不是 clot burden：hypotension（SBP <90 mm Hg 至少 15 minutes，或因非其他原因需 vasoactive support）、pulselessness，或 bradycardia（心率 <40 beats/minute，伴 shock signs）。2019 European Society of Cardiology（ESC）與 European Respiratory Society（ERS）acute PE guidelines 將 hemodynamic instability 定義為以下任一：
+(1) Cardiac arrest。
+(2) Obstructive shock：SBP <90 mm Hg，或 filling status 足夠下仍需 vasopressors 才能達 SBP ≥90 mm Hg，且有 end-organ hypoperfusion。
+(3) Persistent hypotension：SBP <90 mm Hg，或 SBP 降低 ≥40 mm Hg、持續 >15 minutes，且不是 new-onset arrhythmia、hypovolemia 或 sepsis 造成。
+(b) Intermediate-risk 或 submassive PE。
+(1) AHA 2011 分類：acute PE 無 systemic hypotension，但有 RV dysfunction，或 myocardial necrosis。RV dysfunction 包括 echocardiogram 上 RV dilation／systolic dysfunction、chest CT 上 RV dilation、brain natriuretic peptide >90 pg/mL、N-terminal pro-brain natriuretic peptide >500 pg/mL，或 electrocardiographic changes（新發 complete／incomplete right bundle-branch block、anteroseptal ST-segment elevation／depression，或 anteroseptal T-wave inversion）。Myocardial necrosis 為 troponin I >0.4 ng/mL 或 troponin T >0.1 ng/mL。
+(2) ESC／ERS 2019 分類：Simplified Pulmonary Embolism Severity Index score ≥1，即年齡 >80；cancer、chronic respiratory disease 或 cardiac disease；心率 ≥110 beats/minute；SBP <100 mm Hg；或 SaO₂ <90%，不論是否有 RV strain。
+(c) Intermediate-risk PE 可依是否同時有 RV dysfunction 與 myocardial necrosis，進一步分為 intermediate-high risk；僅有其中一者，則為 intermediate-low risk。
+(d) Low-risk PE：未符合 massive 或 submassive PE 定義的 acute PE。
+v. Cardiac arrest 的 thrombolytics：
+(a) 2020 AHA International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care維持 2015 AHA guidelines，指出 PE-associated cardiac arrest 的理想 thrombolytic dose 沒有共識。近期 dosing regimen 範例包括 alteplase 50-mg bolus（需要時重複，達 intravenous total dose 100 mg），或 PE 確認為 cardiac arrest 原因時給 weight-based tenecteplase。
+(b) 2020 AHA guidelines 對 suspected PE 所致 cardiac arrest，給予 fibrinolytic drugs 為 weak recommendation（very low-certainty evidence）。PE 確認為原因時，可使用 fibrinolytic drugs、surgical embolectomy 或 percutaneous mechanical thrombectomy（very low-certainty evidence）。Task force 考量病人可能沒有 PE，卻接受 fibrinolytics 的出血風險。最大 cardiac arrest thrombolysis 研究 TROICA 中，thrombolysis 增加 bleeding risk，但 major bleeding complications 沒有差異。Task force 認為病人死於 cardiac arrest 的可能性遠大於死於治療。
+(c) 建議基於 peri-arrest 情境使用 thrombolytics 可能改善結果，但 prospective evaluations 結果矛盾。
+vi. Massive PE 的 thrombolytics：
+(a) 2021 CHEST guidelines update 與 2019 ESC／ERS guidelines 建議，有可接受 bleeding complication risk 的 massive／high-risk PE 病人接受 systemic thrombolytics。
+(b) 支持的 meta-analysis 顯示，massive PE 病人使用 thrombolytics，相較 heparin alone，recurrent PE 或 death 較低（9.4% vs. 19.0%；OR 0.45；95% CI 0.22–0.92）。
+(c) 2012 National Inpatient Sample analysis 納入 >70,000 名 unstable PE 病人（定義為 shock 或需 mechanical ventilation），提示 systemic thrombolytics 降低 PE-attributable mortality（8.4% vs. 42%；p<0.0001）。
+(d) Massive PE 的 systemic thrombolytics 可能使用不足，因資料庫約 70% 病人未接受治療。
+vii. Submassive PE 的 thrombolytics 有爭議，應依 risk-benefit profile：
+(a) 一項 submassive PE 研究比較 heparin 加 alteplase 100 mg over 2 hours 與 heparin 加 placebo；前者 death 或需 escalation of treatment 的 clinical deterioration 較低（11.0% vs. 24.6%；p=0.006）。結果主要來自 heparin-alone arm 更多病人接受 secondary thrombolytics（23.2% vs. 7.6%；p=0.001），而研究者可解除 treatment allocation blinding，可能影響此結果。兩組 bleeding 無差異。
+(b) PEITHO study 納入同時符合 RV dysfunction 與 myocardial necrosis 的 submassive PE，隨機分配 weight-based tenecteplase 加 heparin，或 placebo 加 heparin。
+(1) Randomization 至 day 7，tenecteplase 組 death 或 hemodynamic decompensation 較少（2.6% vs. 5.6%；p=0.02；number needed to treat 33，95% CI 18–162），但 major extracranial bleeding 較多（6.3% vs. 1.2%；p<0.001；number needed to harm 20，95% CI 13–35），stroke 也較多（2.4% vs. 0.2%；p=0.003；number needed to harm 47，95% CI 26–107）。
+(2) Stroke 差異主要來自 tenecteplase 組較高的 hemorrhagic stroke（2.0% vs. 0.2%；p=0.01；number needed to harm 57，95% CI 30–164）。
+(3) Clinically important outcomes 的 number needed to treat 與 number needed to harm 之 95% CIs 重疊，使 submassive PE 使用 tenecteplase 的 risk-benefit profile 受到質疑。
+(c) PEITHO 約 70% 病人接受至少 24 months 的 long-term follow-up（平均 37.8 months）。
+(1) Tenecteplase 與 placebo 的 30-day 或 long-term overall／cause-specific mortality 沒有差異。
+(2) 有 long-term echocardiograms 的 290 名病人中，CTEPH 在 tenecteplase 組 2.1%，未接受者 3.2%（p=0.79）。
+(3) Functional status、symptoms、RV dysfunction 及 day 30 survival，兩組也沒有差異。
+(d) 根據此試驗，2021 CHEST 與 2019 ESC／ERS guidelines 不建議 intermediate- 或 low-risk PE 常規使用 systemic thrombolytics；但有 deterioration signs／risk、且 bleeding risk 低的特定病人可考慮。
+viii. Thrombolytics 的 risk-benefit 最宜由 bedside clinician 逐例判定（Table 10）。
+(a) PEITHO subgroup analysis 顯示，年齡 >75 可能與 major extracranial bleed 風險相關（OR 20.38；95% CI 2.69–154.53；p=0.09）。
+(b) HAS-BLED 等常用 bleeding scores 可中度預測 PE 使用 thrombolytic agents 後 intracranial hemorrhage 的風險，但缺乏精準度。
+ix. 極端情況（如 massive PE、impending cardiac arrest），即使有強烈 bleeding risk factors，部分臨床人員仍可能基於治療潛在效益給予 thrombolytics。這些情境下，除 active internal bleeding 外，product labeling 的「contraindications」也可能被部分臨床人員視為「relative contraindications」。
+**Table 10. Thrombolytic Therapy 後出血的風險因素**
+Alteplase package insert contraindications：
+- Active internal bleeding。
+- Recent（3 mo 內）intracranial 或 intraspinal surgery，或 serious head trauma。
+- Current cerebrovascular accident（intracranial hemorrhage 或 ischemic stroke）。
+- Current severe uncontrolled hypertensionᵃ。
+- Malignant intracranial neoplasm、arteriovenous malformation 或 aneurysm。
+- Known bleeding diathesisᵇ。
+Alteplase package insert warnings：
+- Recent major surgery。
+- 3 mo 內 significant closed-head／facial trauma，且影像有 bony fracture 或 brain injury 證據。
+- Cerebrovascular disease。
+- Recent GI 或 genitourinary bleeding。
+- Hemostatic defects，包括 severe hepatic 或 renal disease 所致。
+- Hypertension（SBP ≥175 mm Hg 及／或 DBP ≥110 mm Hg）。
+- Acute pericarditis。
+- Subacute bacterial endocarditis。
+- Recent trauma。
+- Significant hepatic dysfunction。
+- 年齡 >75。
+- Noncompressible site 的 needle puncture。
+- Left heart thrombus。
+- Pregnancy。
+- Septic thrombophlebitis，或嚴重感染部位的 occluded arteriovenous cannula。
+- Diabetic hemorrhagic retinopathy 或其他 hemorrhagic ophthalmic conditions。
+- 近期使用 oral anticoagulants。
+已發表文獻中的 bleeding risk factors：
+- Recent internal bleeding。
+- Suspected aortic dissection。
+- Poorly controlled baseline hypertensionᵃ。
+- Acute pancreatitis。
+- Acute myocardial infarction。
+- Cardiopulmonary resuscitation >10 min。
+- Stool occult blood positive。
+- Bilirubin concentration >3 mg/dL。
+- Intra-aortic balloon pump。
+- Dementia。
+- African American race。
+- Coagulopathyᵇ。
+ᵃPE 未定義；acute ischemic stroke 記為 SBP >185 mm Hg 或 DBP >110 mm Hg。
+ᵇPE 未定義；acute ischemic stroke 記為 INR >1.7 或 Plt <100,000/mm³。
+Adapted with permission from: Curtis GC, Lam SW, Reddy AJ, et al. Risk factors associated with bleeding after alteplase administration for pulmonary embolism: a case-control study. Pharmacotherapy 2014;34:818-25; and Daley MJ, Lat I. Clinical controversies in thrombolytic therapy for the management of acute pulmonary embolism. Pharmacotherapy 2012;32:158-72.
+x. Catheter-directed thrombolysis（CDT）是新興治療，可將較低劑量 thrombolytic agents 直接給入 thrombus。
+(a) 優點為可同時 mechanical disruption，包括 ultrasound-assisted fragmentation、aspiration 或 embolectomy。
+(b) 數個 CDT clinical trials 顯示 hemodynamics 與 RV strain 改善，major bleed 風險很低（<1%）。
+(c) 不過缺乏評估 long-term outcomes 的 prospective comparative studies；所需的院所經驗及資源限制其廣泛應用。
+(d) 2021 CHEST guidelines 對多數病人建議 systemic thrombolytic therapy 優於 CDT；但 acute PE 伴 hypotension，且有 high bleeding risk、failed systemic therapy，或 shock 可能在 systemic thrombolysis 生效前導致死亡時，可考慮 CDT。
+xi. Reduced-dose thrombolytic therapy 被研究作為降低 bleeding risk 的策略。
+(a) 數個試驗評估「half-dose」與 full-dose alteplase，顯示 hemodynamic parameters 改善、可能較少出血，但均有嚴重 methodological limitations，限制 generalizability。
+(b) 3768 名病人的 retrospective database 顯示，half-dose alteplase 更可能需 treatment escalation（53.8% vs. 41.4%；p<0.01），主要由 secondary thrombolysis 驅動；bleeding complications 沒有明顯差異。
+(c) 依現有資料，專家不建議 PE 處置考慮 half-dose。若因 hemodynamic decompensation 需 reperfusion，但有 systemic fibrinolysis 的 absolute／relative contraindications，建議 CDT。
+(d) PEITHO-3 trial（NCT04430569）旨在比較 intermediate-high risk PE 的 reduced-dose alteplase 與 standard heparin efficacy／safety，預期結果將影響 risk-adjusted acute PE treatment 與 guideline recommendations。
+xii. Massive 或 submassive PE 病人若（1）thrombolytics 的 bleeding risk 不可接受、（2）thrombolytics 後仍 unstable，或（3）shock 可能於數小時內、systemic thrombolytics onset 前導致死亡，應考慮 surgical embolectomy 或 catheter thrombectomy。
+xiii. 除有禁忌外，所有病人也應接受 parenteral anticoagulant。
+(a) 考慮或計畫 thrombolytic therapy 時，建議 intravenous unfractionated heparin 優於其他 agents。
+(b) Alteplase package insert 建議 infusion 期間暫停 heparin，aPTT 回到 <normal upper limit 2 倍時重新開始。
+(c) 不過部分 clinical trials 在 thrombolytic administration 期間持續 heparin。
+(d) 因此實務上 concurrent heparin 與 thrombolytic therapy 各異，需依 risk assessment（如 bleeding 與 hemodynamics）個別化。若 anticoagulation 禁忌，應放置 inferior vena cava filter。
+
+### D. 一項研究凸顯美國 acute PE 處置與結果的種族及社經差異
+
+原稿 PDF 頁：[36](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=36)、[37](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch16.pdf#page=37)。
+
+研究分析 2016–2018 Nationwide Inpatient Sample，確認美國成人 acute PE 住院 1,124,204 次，其中 66,570 名（5.9%）為 high risk。PE 住院率在各 racial／ethnic groups 上升，Black people 最高為 20.1/10,000 person-years，White people 次之為 13.1/10,000 person-years。
+1. 相較 White 病人，Black 病人接受 advanced PE therapy（thrombolysis、catheter-directed treatment、surgical embolectomy 或 extracorporeal membrane oxygenation）機率低 13%（OR 0.87；95% CI 0.82–0.93；p<0.001）；Asian 病人較其他族群低 24%（OR 0.76；95% CI 0.70–0.83；p<0.001）。相較 private insurance，Medicare 低 27%（OR 0.73；95% CI 0.70–0.76；p<0.001）、Medicaid 低 32%（OR 0.68；95% CI 0.64–0.71；p<0.001）、「other-insurance」（含無保險者）低 14%（OR 0.86；95% CI 0.81–0.91；p<0.001）。
+2. Mortality 方面，Hispanic 比 White 高 10%（OR 1.10；95% CI 1.03–1.18；p=0.005），Asian 比其他族群高 50%（OR 1.50；95% CI 1.35–1.65；p<0.001）。最低 income 的病人 mortality 高 9%（OR 1.09；95% CI 1.04–1.14；p=0.001）。High-risk PE 中，Black、Hispanic 與 Asian 相較 White，獨立於其他因素的 mortality 高 11%–50%（所有 racial／ethnic groups p<0.05）。

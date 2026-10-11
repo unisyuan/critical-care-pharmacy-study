@@ -1,0 +1,920 @@
+# 第 13 章詳細重點整理
+
+依提供的 2024 教材整理。專有名詞與藥名保留英文；原稿有疑義處保留核對註。
+
+## 複習架構：ALF、GI Complications 與 Endocrine Emergencies
+本章疾病多，適合分成肝衰竭、GI／術後問題與 endocrine 三條主線。每項都需同時評估原因、organ support、藥物與併發症。
+
+### 1. Acute Liver Failure
+- 判讀急性肝損傷、coagulopathy 與 encephalopathy，並辨識 Acetaminophen、其他藥物、viral、ischemic 或其他原因。
+- 病史與服藥時間重要。Acetaminophen 濃度測不到，仍可能有晚期 Acetaminophen-related ALF；不能只因低濃度排除 Acetylcysteine 的教材適用情境。
+- 治療需處理病因，並評估 transplant、cerebral edema、hypoglycemia、infection、AKI 與 electrolyte abnormalities。
+- INR 是重要病情資訊，但不應單獨當作所有 prophylactic blood product therapy 的理由；需結合 bleeding 或 procedure 情境。
+
+### 2. Acute Pancreatitis
+- 區分 pancreatitis 嚴重度、organ failure、necrosis 與 infection。
+- 支持照護包括適當 fluid、analgesia 與營養；source／complication management 視情況安排。
+- Sterile necrosis 不等於 infected necrosis，不能把 inflammation 一律以 antibiotics 處理。
+
+### 3. GI Fistulas、Postoperative Ileus 與 PONV
+- Fistula 需評估 output、fluid／electrolyte loss、營養、infection 與 anatomy；藥物降低 output 的效果不能取代完整支持照護。
+- Ileus 需辨識 obstruction、藥物、electrolytes 與手術相關因素；減少促成藥物，規劃恢復 GI function 的策略。
+- PONV 依 risk factors、先前 prophylaxis 與藥物作用機轉選擇組合；rescue therapy 需考慮已使用的 agent，而不是只重複同一 regimen。
+
+### 4. Upper GI Bleeding
+- 初始評估 hemodynamics、bleeding severity、既有 anticoagulant／antiplatelet 與 endoscopy 需求。
+- PPI therapy、endoscopic management 及後續 monitoring 需連同病灶與再出血風險解讀。
+- Variceal 與 nonvariceal bleeding 的藥物、antibiotics 及程序角色不同；不能僅以「GI bleed」套用同一 order set。
+
+### 5. DKA 與 HHS
+|判讀面向|需要一起看的資料|
+|---|---|
+|診斷|Glucose、ketones、pH／HCO₃⁻、anion gap、osmolality 與病況|
+|復甦|Volume status、Sodium、renal／cardiac function 與 fluid response|
+|Insulin|開始條件、Potassium、Glucose 下降與 ketoacidosis／hyperosmolality 改善|
+|轉換治療|Resolution criteria、進食能力、basal insulin 與 IV／SC overlap|
+- 先確認 Potassium 與補充計畫；Glucose 降低不代表 DKA 已解除，需避免過早停 Insulin。
+
+### 6. Hyperglycemia 與 Hypoglycemia
+Glucose 管理需兼顧營養變動、renal／hepatic function、Corticosteroids 與 Insulin 暴露。Hypoglycemia 先處理，再查原因及避免復發，尤其長效藥物或 organ dysfunction 的病人。
+
+### 7. Thyroid 與 Adrenal Emergencies
+- Thyroid storm 的療法包含控制 hormone synthesis、release、peripheral effects 與支持照護；Thionamide 與 Iodine 的先後順序重要。
+- Myxedema coma 需兼顧 Thyroid hormone、可能的 adrenal insufficiency、temperature／ventilation 與促成因素；不是單純慢性 hypothyroidism 的常規 PO dose。
+- Adrenal crisis 評估 hypotension、electrolytes、Glucose、既有 Steroid 使用與急性 stress；治療與病因／支持照護同步。
+
+
+# 分主題詳細條目
+
+## I. ACUTE LIVER FAILURE
+
+### A. Epidemiology
+
+原稿 PDF 頁：[7](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=7)。
+
+1. ALF incidence 每年每百萬人 <10 cases，美國每年2000 cases，但 morbidity、mortality 極高；最高50% 出現 multiorgan failure、死亡。
+2. 美國每年 liver transplants <10% 因 ALF。
+3. 任何年齡、demographic group 均可發生，etiology 有時取決地域。Developing countries 較常 viral hepatitis；developed countries 較常 toxin-related，例如 acetaminophen。
+4. 美國最常見 drug-induced、viral、autoimmune、shock。Drug-induced 主要 acetaminophen，占美國約50%；約15% 無可辨原因。
+
+### B. 定義
+
+原稿 PDF 頁：[7](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=7)。
+
+1. ALFSG 與 AASLD 定義：無 preexisting liver failure，illness duration <26 weeks，具有 liver-induced coagulopathy（INR ≥1.5）及任何程度 mental alteration／encephalopathy。
+a. 相對地 ACLF（acute-on-chronic liver failure）為 chronic liver disease acute decompensation 加 multiorgan failure 的 syndrome。
+2. 可依 jaundice 後至 encephalopathy 時間再分。區間通常提供原因線索，但此分類本身通常沒有獨立於原因的 prognosis 意義。
+a. Hyperacute ALF：jaundice 後 <7 days encephalopathy，通常 acetaminophen toxicity 或 ischemic hepatitis，transplant-free survival 較高，意指無 liver-related death 或 liver transplantation。初診往往 high-degree encephalopathy、cerebral edema 較多，但整體 prognosis 較好。
+b. Acute ALF：jaundice 後7–21 days encephalopathy，常見 viral hepatitis。Cerebral edema 高，但不同 hyperacute，transplant-free survival 較低。
+c. Subacute ALF：jaundice 後>21 days、<26 weeks encephalopathy，典型 drug-induced 或 indeterminate；transplant-free survival 較低，初診 coagulopathy、encephalopathy 較不明顯，較易 renal failure、portal hypertension。
+
+### C. 診斷與 disposition
+
+原稿 PDF 頁：[7](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=7)、[8](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=8)。
+
+1. Encephalopathy 加無法解釋 INR 升高，需進一步 ALF 評估，兩者合併對 ALF 非常 specific。
+3. 診斷與 workup 其他 physical examination、laboratory analysis、imaging 見 Table 1。
+Table 1. 疑似 ALF 的 diagnostic approach
+| Diagnostic workup | Procedure |
+|---|---|
+| History | 評估 symptom onset timing；virus、drug（如 acetaminophen）、toxin（如 mushrooms）exposure；substance abuse history。 |
+| Physical examination | 常見 chronic liver disease signs 如 ascites、jaundice、right upper quadrant pain 未必存在；評估 encephalopathy grade。 |
+| Laboratory analysis | Basic metabolic panel、CBC、liver function、coagulation tests、arterial blood gas、acetaminophen concentrations、ammonia、toxicology screen、blood typing；viral serologies；liver biopsy 有助判定 autoimmune hepatitis 或 HSV-related ALF。 |
+| Imaging | Hepatic CT、ultrasonography 可偵測 hepatic vein thrombus。 |
+ALF = acute liver failure；CBC = complete blood cell count；HSV = herpes simplex virus。
+Adapted from: Lee WM. Acute liver failure. Semin Respir Crit Care Med 2012;33:36-45.
+Table 2. 美國 ALF 原因
+| Cause | Cases proportion |
+|---|---|
+| Acetaminophen | 46% |
+| Indeterminate | 12% |
+| Non-acetaminophen drug-induced | 11% |
+| Hepatitis B | 7% |
+| Autoimmune | 7% |
+| Ischemic | 7% |
+| Hepatitis A | 1.5% |
+| Wilson disease | 1.2% |
+| Pregnancy | 1% |
+| Budd-Chiari | 0.7% |
+| Other | 7% |
+ALF = acute liver failure。
+Adapted from: Stravitz RT, Lee WM. Acute liver failure. Lancet 2019;394:869-81.
+
+### D. 原因（Table 2）
+
+原稿 PDF 頁：[8](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=8)、[9](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=9)、[10](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=10)、[11](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=11)。
+
+1. Acetaminophen
+a. Overdose 占美國 ALF 接近50%，為美國、Europe 主要原因；2005 美國造成70,000 health care encounters、300 deaths。
+b. 與大多其他 DILI 不同，acetaminophen-induced liver failure dose-dependent、可預測，通常成人24小時 >10 g/day 或>200 mg/kg/day，或48小時 >6 g/day、約150 mg/kg/day。
+c. 過去20年 acetaminophen-related ALF 比率增加。
+d. 若未在 early stage、encephalopathy 前治療，mortality 約20%–40%。
+e. 通常 hyperacute，有四個 progression stages：
+i. Preclinical：ingestion 最初24小時，通常 hepatotoxicity signs/symptoms 少或無。
+ii. Injury：24–72小時，liver transaminases 顯著升。
+iii. Failure：72–96小時，peak liver injury，含 encephalopathy、coagulopathies、jaundice。
+iv. Recovery：若度過 failure，ingestion 後1週。Fulminant liver failure 的 critically ill 者可能 prolonged recovery。
+f. Overdose background、pathophysiology、treatment 詳見 Toxicology review 章。
+2. Non–acetaminophen-induced acute liver failure（NAI-ALF）
+a. DILI
+i. 非 acetaminophen DILI 少見，每年約 ALF cases 11%。
+ii. 很少 dose-related toxicity，多數 idiosyncratic。
+iii. 通常 subacute，多數開始藥物後最初6個月內；但 nitrofurantoin、minocycline、statins 可6個月以上才引起。
+iv. Transplant-free survival 低，約30%；多需 transplantation。
+v. 最終是 exclusion diagnosis。ACG DILI guidelines 建議先特定 workup viral hepatitis、autoimmune hepatitis、Wilson disease、Budd-Chiari syndrome。
+vi. 詳細 medication history 包括 herbal medications，用以找 culprit。常見 antibiotics、NSAIDs、anticonvulsants，合占可歸因 DILI 接近2/3。
+vii. RUCAM（Roussel Uclaf Causality Assessment Method）等 scoring systems 評估因果，依 exposure timing、liver function tests、DILI risk factors、competing medications/diagnoses、rechallenge 資訊給分，越高越可能 drug cause。
+viii. Liver injury pattern 也可找 drug cause。Hepatocellular injury 為 transaminases 顯著升，bilirubin、alkaline phosphatase 少量升，與某些藥相關；cholestatic injury 為 bilirubin、alkaline phosphatase 顯著升、transaminases 少量升，與另些藥相關。其他 DILI mixed pattern 同有兩者；藥物清單與 pattern 見 Appendix 1。
+b. Viral
+i. Hepatitis A、B、E 是 developing world ALF 主要 etiology，在美國已相對少見，約12%。
+ii. Hepatitis A
+(a) 美國 ALF 約2%。
+(b) 通常 fecal-oral transmission。
+iii. Hepatitis B
+(a) 過去數十年比率顯著降，仍約每年 ALF 7%。
+(b) Hepatitis B-related ALF 常來自 hepatitis
+B 在 immunosuppression（chemotherapy、high-dose steroids）時 chronic/inactive hepatitis B reactivation。HBsAg positive 即將開始 immunosuppressive regimen，需 nucleos(t)ide analog prophylaxis，通常 entecavir、lamivudine、tenofovir；通常 immunosuppression 前開始，期間持續，結束後再6個月。
+iv. Hepatitis E
+(a) 美國少見，但 Russia、Pakistan、Mexico、India 等 endemic countries 為重要原因。
+(b) Pregnant women 較嚴重，acute infection 可傳給 neonates。
+v. Herpes simplex virus（HSV）
+(a) 少見，但有病例，尤其 immunocompromised、pregnant patients，通常 third trimester。
+vi. Viral hepatitis-related ALF 通常 acute/subacute，jaundice 後>1週 onset symptoms。
+vii. Developing world hepatitis A、E ALF mortality 全球>50%；mass vaccination、較佳 public health standards 降 developed world virus incidence。
+c. Acute ischemic injury
+i. 常稱 shock liver，可在 cardiac arrest、任何顯著 hypovolemia/hypotension 期間、severe congestive heart failure 後導致 ALF。
+ii. 未必有 documented hypotension；drug-induced hypotension/hypoperfusion 也可引起，例如 cocaine、methamphetamine。
+iii. 典型 aminotransferase concentrations 明顯升，亦可同時 renal dysfunction、其他 hypoperfusion markers。
+iv. Hyperacute ALF，通常 circulatory problem 解決後改善。
+d. Mushroom poisoning
+i. 通常 Amanita phalloides spp.。
+ii. Hyperacute，ingestion 後24小時內 symptoms。除 hepatotoxicity，有嚴重 GI symptoms：nausea、vomiting、diarrhea、abdominal cramping。
+e. Wilson disease
+i. 少見，約每年1%，多影響年輕人。
+ii. Rare disorder 使 copper 累積；diagnosis 特徵 abrupt Coombs-negative hemolytic anemia、serum bilirubin >20 mg/dL。其他包括 low serum ceruloplasmin、Kayser-Fleischer rings、high urinary/hepatic copper。
+iii. 所致 fulminant liver failure 無 transplantation 時 mortality 極高。
+f. Autoimmune hepatitis
+i. 為 chronic inflammatory disease，但 symptoms 快速惡化仍可認定 ALF。
+ii. 約20% stable disease 病人會 ALF，通常 environmental trigger 引發。
+g. Budd-Chiari syndrome
+i. Acute hepatic vein thrombosis 造成，symptoms 包括 abdominal pain、ascites、明顯 hepatomegaly。以 ALF 初診者 initial heparin anticoagulation；無反應可考慮 TIPS。
+ii. Medical/therapeutic interventions 無效的 ALF 可能需 transplantation。
+h. Acute fatty liver of pregnancy／HELLP（hemolysis、elevated liver enzymes、low platelets）
+i. 孕末少比例女性 rapidly progressive hepatic failure，通常三 hallmark signs：jaundice、coagulopathy、low platelets，又稱 HELLP。常有 pre-eclampsia features，如 hypertension、proteinuria。
+ii. 胎兒與母親 mortality 增。
+iii. 需 emergency delivery，後 symptoms 應改善；若 ALF 未改善，需 liver transplant evaluation。
+
+### E. Complications
+
+原稿 PDF 頁：[11](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=11)、[12](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=12)、[13](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=13)。
+
+1. ALF 影響幾乎所有 organ systems：
+a. Neurologic
+i. Cerebral edema、elevated ICP 最嚴重；未控制可 uncal herniation，通常致死。Edema 也可 tissue hypoxia、long-term neurological deficits。
+(a) 多因素可升 ICP，主要認為 brain osmotic shifts、inflammation、neurotoxins。
+(b) Ammonia 轉 osmotically active glutamine，濃度與 encephalopathy、cerebral edema 相關。>200 mcg/dL 與 cerebral herniation 相關；<75 mcg/dL 很少 hepatic encephalopathy。ALF 因 hepatocyte activity 受損或 venous flow 異常 shunt 離肝，正常 ammonia detoxification/clearance 失效。
+ii. Encephalopathy 是 cerebral edema clinical presentation indicator；難辨，初可 agitation/confusion，卻能快速至 unresponsiveness。Table 3 為 severity 評估。
+iii. Edema、ICP 升一般與 encephalopathy severity 相關。Grades I、II 少 edema；III 約25%–35%，IV 約65%–75%。
+Table 3. Encephalopathy grades
+| Grade | Signs/symptoms |
+|---|---|
+| I | Behavior 改變，consciousness level 變化少。 |
+| II | 明顯 disorientation、drowsiness、可能 asterixis、inappropriate behavior。 |
+| III | 明顯 confusion、incoherent speech；大多時間睡眠，但 vocal stimuli 可喚醒。 |
+| IV | Comatose；pain 無反應、decorticate 或 decerebrate posturing。 |
+Adapted from: Conn HO, Leevy CM, Vlehcevic ZR, et al. Comparison of lactulose and neomycin in the treatment of chronic portal-systemic encephalopathy. A double blind randomized trial. Gastroenterology 1977;72:573-83.
+b. Cardiovascular
+i. 主要 hemodynamic concern 為 low systemic vascular resistance，似 cirrhosis。另 hyperdynamic circulation、high cardiac output、effective circulating volume 降。
+ii. 多數入院時因 poor nutrition、third-spacing 至 extravascular space 嚴重 volume depleted，初需 aggressive fluid resuscitation。
+iii. Elevated ICP 者需維持 perfusion，確保 brain oxygen delivery；常 goal CPP ≥60 mm Hg，可能需更高 MAP target。CPP = MAP − ICP。
+c. Coagulopathy
+i. ALF 定義有 elevated INR，因 coagulation factors production 減、consumption 增。
+ii. Platelets consumption 也見，thrombocytopenia（≤150,000/mm³）常見。
+iii. 雖 parameters 改變，thromboelastography 顯示 even INR 高者，overall hemostasis 仍由 compensatory mechanisms 維持，可能 hepatic natural anticoagulants synthesis 減。
+iv. Spontaneous bleeding 少見，為 capillary-type，通常 stomach、lungs、genitourinary mucosal bleeding。不同 chronic failure，一般不 esophageal variceal bleeding。
+v. 需 transfusions 的 clinically significant bleeding 少見。
+d. Renal
+i. ALF AKI 通常 prerenal injury 或 acute tubular necrosis。
+(a) Prerenal azotemia 通常 portal hypertension vasodilation 所致，systemic hypoperfusion 加劇，似 cirrhosis hepatorenal syndrome。
+(b) ATN 通常 drugs/toxins，如 acetaminophen、Amanita poisoning。
+e. Infection
+i. Prolonged ICU stay、indwelling Foley/central venous catheters、intrinsic monocyte/neutrophil dysfunction 使風險高。可能延 transplantation、影響 postoperative period，需重視。
+ii. 最常 pneumonia，其次 UTI、bloodstream infection；最常 isolates gram-positive cocci，如 Staphylococcus、Streptococcus，以及 enteric gram-negative bacilli。約1/3 fungal infection，尤其 Candida。
+f. Metabolic abnormalities
+i. Hepatocyte impaired，無有效 glycogenolysis/gluconeogenesis，hypoglycemia risk 高。
+ii. Severe encephalopathy 難辨 hypoglycemia symptoms，profound hypoglycemia 又可惡化 mental state。
+iii. Tissue hypoperfusion、renal dysfunction 改變 ADH，hyponatremia 常見；high-grade encephalopathy 尤需避免。
+
+### F. ALF 管理
+
+原稿 PDF 頁：[13](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=13)、[14](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=14)、[15](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=15)。
+
+1. Antidotes
+a. Acetaminophen-induced ALF（Table 4）
+i. Activated charcoal GI decontamination 最初1小時最有效，但 ingestion 後至4小時可能有益，不減 acetylcysteine effect。
+ii. 所有疑 acetaminophen cause 的 ALF 建議 acetylcysteine。
+(a) 可 oral 或 IV；studies 兩路徑 outcomes 類似，但主要 efficacy outcome 是 hepatotoxicity 發生。已 hepatotoxicity 如 ALF，建議 IV。ALFSG 以下任一建議 IV：
+(1) >Grade I encephalopathy。
+(2) Hypotension。
+(3) 不耐 oral，如 vomiting、compromised airway、ileus。
+(b) 結束時 acetaminophen 可偵測或 ALT 仍高，許多 poison centers 延長；尤其 ingestion >8小時才治、baseline extrapolated Rumack–Matthew nomogram >300 mcg/mL。
+(c) 最近 massive overdoses 研究 alternative dosing，含最後一袋加倍，200 mg/kg over16hr。Massive 定義 initial extrapolated concentration >300 mcg/mL 或 single ingestion >30g；最後一袋加倍與 hepatotoxicity 降相關，但需再評估。
+(d) 可續至 encephalopathy/coagulopathy signs/symptoms 消失或 transplantation。2023 ACG 建議 APAP ALF NAC duration 依 clinical condition、laboratory values 個別化。
+(e) 更多治療見 Toxicology 章。
+Table 4. Acetaminophen-induced ALF 的 acetylcysteine
+| Route | Dose |
+|---|---|
+| Oral | Loading 140 mg/kg ×1；maintenance 70 mg/kg q4hr ×17 doses；共72hr。 |
+| IV | 150 mg/kg（max15g）over60min；接50 mg/kg（max5g）over4hr；接100 mg/kg（max10g）over16hr；共21hr。 |
+IV = intravenous。
+b. NAI-ALF
+i. Acetylcysteine 為 free radical scavenger，可能改善 oxidative stress；vasodilatory effects 也可能改善 hepatic/systemic perfusion。
+ii. Multicenter randomized trial IV acetylcysteine 對 placebo ×72hr（Table5），按 coma grade stratify，多 low-grade encephalopathy。Primary overall survival at3weeks 無差異，但 transplant-free survival 顯著升，40% 對27%，p=0.04。
+(a) 增益主要 grades I/II subgroup：52% 對placebo30%，p=0.01。
+(b) 按 etiology，DILI、hepatitis B 的 overall/transplant-free survival 改善比其他 causes 更多。
+iii. 也研究 IV loading 後 continuous150 mg/kg over24hr，至 coagulopathy 消失（INR <1.3）。對 historical cohort transplant-free survival 96.4% 對23.3%，p<0.01，但需再評估。
+iv. Prospective non-interventional study 的 oral acetylcysteine 對 historical cohort 降 mortality；140 mg/kg loading，後70 mg/kg q4hr ×17。然目前僅 IV 經 NAI-ALF RCT 研究。
+Table 5. NAI-ALF 的 acetylcysteine
+| Route | Dose |
+|---|---|
+| IV | 150 mg/kg over1hr；接12.5 mg/kg/hr ×4hr；接6.25 mg/kg/hr ×67hr。 |
+c. Viral hepatitis
+i. Hepatitis B
+(a) 如 prophylaxis，acute infection 需 nucleos(t)ide analog：entecavir1 mg daily 或 lamivudine100 mg daily。
+ii. HSV
+(a) HSV ALF 可 high-dose acyclovir5–10 IV q8hr 至少7days。〔原文未提供5–10的劑量單位；來源PDF p15。〕
+d. Mushroom poisoning
+i. 仍有 GI symptoms 表示近期 ingestion，可 gastric lavage、activated charcoal。
+ii. Efficacy data 缺乏，但 penicillin G 或 silibinin（silymarin／milk thistle）可作 α-amanitin antidote，該 toxin ingestion 後釋出。Guidelines 首選 IV silibinin，但美國僅 compassionate-use investigational access，因此常 penicillin G 替代；它直接 competitive inhibits toxin plasma-protein binding、liver penetration。推薦 IV300,000–1 million units/kg/day。
+e. Autoimmune hepatitis
+i. ALF 應開始 high-dose IV corticosteroids，≥1 mg/kg prednisone equivalent 或≥60 mg/day；progressive disease 需 transplantation。
+
+### G. ALF advanced therapies
+
+原稿 PDF 頁：[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=20)。
+
+1. Liver assist devices：MARS（molecular adsorbent recirculating system）已研究。Large propensity-matched104名MARS，4:1配416controls，21-day transplant-free survival odds顯著升，OR1.9；95%CI1.07–3.39；p=0.03。
+2. Transplantation
+a. Orthotopic liver transplantation為唯一definitive treatment。
+b. Advances使ALF survival>60%。
+
+### H. Prognosis
+
+原稿 PDF 頁：[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=20)。
+
+1. Survival、transplant need predictive models有助辨最可能benefit者。
+2. 最重要predictor似cause。Acetaminophen、hepatitisA、acute ischemic injury、pregnancy transplant-free survival≥50%；其他<25%。III/IV比I/II顯著低。
+3. King's College criteria由約600人cohort建立，納cause、encephalopathy degree、liver function等clinical parameters，評transplant對medical therapy決策。
+
+## II. ACUTE PANCREATITIS
+
+### A. Epidemiology
+
+原稿 PDF 頁：[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=20)。
+
+1. 美國每年275,000住院。
+2. 2012美國第三常見gastroenterology diagnosis，年cost$2.6billion。
+3. Incidence每100,000人5–30cases。
+4. 依severity分類；約20% severe course，overall mortality約5%。
+
+### B. 定義
+
+原稿 PDF 頁：[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=20)、[21](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=21)。
+
+1. Clinical diagnosis characteristic symptoms，如abdominal pain、nausea，加pancreatic enzyme serum elevations。Working Group定義以下3中2：
+a. Consistent abdominal pain，通常persistent epigastric，有時radiate背。
+b. Lipase或amylase>normal upper limit3倍。
+c. CT、MRI、transabdominal ultrasound consistent pancreatitis。
+3. 分early/late：early通常first week；late weeks–months。
+a. Early：first week SIRS，temperature>38°C或<36°C、HR>90、RR>20或PaCO₂≥32 mm Hg或ventilator、WBC>12,000或<4,000，可伴或無transient failure。〔PaCO₂不等號依原文。〕Inflammation/failure主要local pancreatic injury response。
+b. Late：1week後complications，可weeks–months；persistent failure、local complications；僅moderately severe/severe。
+4. Local complications：
+a. Peripancreatic fluid collections。
+b. Pancreatic/peripancreatic necrosis，sterile或infected；nonviable parenchyma影像不enhance，通常>pancreas30%。
+c. Pseudocysts。
+d. Walled-off necrosis，sterile或infected。
+5. Organ failure通常cardiovascular、respiratory、renal。推薦modified Marshall score，任一system≥2示failure。
+C. Pathophysiology：主要trypsinogen不當activation成trypsin。Trypsin關鍵activation pancreatic zymogens；不當形成並留pancreas，內部digestive enzymes activation造成autodigestion/injury。
+
+### D. 原因
+
+原稿 PDF 頁：[21](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=21)、[22](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=22)。
+
+1. Gallstones
+a. 主要cause40%–70%；gallstones病人3%–7%pancreatitis。
+b. 主要white女性>60歲、small stones<5mm。
+c. 通常acute，stone移除/通過後resolve。
+d. 可cholecystectomy預防再發。
+2. Alcohol
+a. Excessive use占25%–35%。
+b. 可acute episode或chronic pancreatitis。
+c. 男性較常。
+d. 認dose-dependent，>5years或>50g/day增risk；heavy history僅約5%AP。
+3. Hypertriglyceridemia
+a. Primary/secondary愈獲認為cause，報告5%–22%。
+b. Triglycerides>1000 mg/dL應疑cause。
+6. 約20%idiopathic。
+
+### E. 診斷
+
+原稿 PDF 頁：[22](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=22)。
+
+1. Signs/symptoms
+a. Abdominal pain
+i. 通常epigastric/left upper quadrant，可背、胸、flank；通常constant/severe。
+ii. Gallstone pain形容刀割。
+b. Nausea。
+2. Laboratory abnormalities
+a. Working Group diagnosis需lipase或amylase≥upper limit3倍。
+b. Lipase preferred，更specific、elevation比amylase持久。
+i. Amylase數小時內快升，數日正常。
+ii. Alcohol-induced、hypertriglyceridemia可amylase正常。
+3. Imaging
+a. 所有病人transabdominal ultrasonography確認。
+b. Contrast CT sensitivity/specificity>90%，但routine不需。
+c. Diagnosis不明或48–72hr未改善，contrastCT/MRI評complications。
+
+### F. 管理
+
+原稿 PDF 頁：[22](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=22)、[23](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=23)、[24](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=24)。
+
+1. Hydration
+a. 需early aggressive volume resuscitation，因vomiting、oral intake減、inflammatory third-spacing、diaphoresis而depleted。假設volume depletion下pancreatic inflammation使hypoperfusion惡化導致necrosis；early aggressive可能預防。
+b. Early（first24hr）比later aggressive有效；持續first24hr後aggressive studies未benefit。
+i. Guidelines建議early，但定義不同：first12–24hr5–10mL/kg/hr或250–500mL/hr。2018AGA建議noninvasive HR/MAP/urine或invasive stroke volume variation評fluid responsiveness。
+ii. 2022RCT aggressive20mL/kg bolus後3mL/kg/hr，對moderate全員1.5mL/kg/hr，hypovolemic另initial10mL/kg bolus。全為AP，outcome progression moderately severe/severe。因aggressive harm尤其fluid overload20.5%對6.3%，p=0.004，而efficacy無異，提前停。提示較不aggressive可能適當，尤其initial less severe；initial severe仍可能需快速aggressive。
+c. Initial fluid selection可能重要，偏pH-balanced；low pH activates trypsinogen，意味low-pH fluids加inflammation。First24hr LR對0.9%NaCl RCT，24hr SIRS reduction84%對0%，p=0.035，CRP也顯著降。但最近兩RCT LR early SIRS降，24hr後prevalence、mortality等outcomes無異。無meaningful clinical difference，2018AGA不推薦特定fluid。
+d. Over-resuscitation有害，尤其cardiovascular/renal failure，first6–12hr無response則aggressive未必有益。
+2. Etiology-specific治療
+a. Hypertriglyceridemia-induced insulin
+i. Severe的mainstay high-dose infusion。
+ii. Initial0.1units/kg/hr，按通常q12hrtriglycerides調；24hr未降至少25%–50%，每次增0.05units/kg/hr至ideal<500 mg/dL。
+iii. 預防hypoglycemia，BG hourly，開始並調dextrose infusion維持約150 mg/dL。
+b. ERCP
+i. 多gallstones經duodenum於stool排出無害，未清除可阻biliary tree/pancreatic duct，severeAP/cholangitis。
+ii. ERCP加sphincterotomy可取stones。
+iii. 風險大，含bleeding、pancreas manipulation可能惡化AP。
+iv. 8RCT評earlyERCP減complications，多未排acute cholangitis（無AP也適應）。控制cholangitis的systematic review early無益：mortalityOR0.67、95%CI0.26–1.75；因此無cholangitis不routine。
+v. AP最常ERCP complication；雖decades顯著降，仍2%–4%。
+(a) High-risk可ERCP後rectalNSAID如indomethacin100mg。
+(b) 600high-risk multicenterRCT，immediate後兩50mg suppositories，AP9.2%對16.9%，p=0.005；moderate/severe4.4%對8.8%，p=0.03。
+
+## III. GASTROINTESTINAL FISTULAS
+
+### A. Epidemiology
+
+原稿 PDF 頁：[26](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=26)。
+
+1. Crohn disease一生約20%spontaneous fistula，diverticulitis至12%。
+2. Postoperative incidence依abdominal surgery<1%至35%；complex procedures/resections/anastomoses增risk。Crohn等額外因素（incidence15%–35%）增加。
+3. 50years mortality從>40%降現約20%，主要supportive care、nutrition advances。
+4. 仍considerable morbidity：prolonged hospitalization、infections、malnutrition。
+
+### B. 定義
+
+原稿 PDF 頁：[26](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=26)、[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=27)。
+
+1. 兩epithelialized surfaces異常connection；GI連tract與skin、其他organ、peritoneal/pleural等cavity。
+2. Classification：
+a. Anatomic：origin、drainage point。
+i. Internal：其他internal organ/cavity，如ileocolic。
+ii. External：skin，如enterocutaneous。
+b. Nomenclature：origin gastro-/entero-/ileo-後termination -cutaneous/-colic。
+c. Physiological：daily output，是morbidity/mortality最重要determinants之一，spontaneous closure前通常降。
+i. High>500mL/day，mortality約35%。
+ii. Moderate200–500mL/day。
+iii. Low<200mL/day。
+d. 亦依GI continuity：
+i. Lateral分出intestine但維continuity，contents正常經fistula後前進。
+ii. End中斷fistula後continuity。
+
+### C. 原因
+
+原稿 PDF 頁：[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=27)。
+
+1. Postoperative
+a. 約80%術後，多cancer operations。
+b. 因infection或intestinal anastomosis breakdown。
+c. 多external，常因drain。
+2. Spontaneous
+a. GI fistulas15%–25%。
+b. 主要Crohn/IBD，pancreatitis/cancer尤其radiation也可。
+c. Local inflammation造成abscess/perforation。
+d. 可external/internal。
+3. Trauma-induced
+a. Abdominal wounds或blunt trauma。
+b. 可vascular injury致formation。
+
+### D. 診斷
+
+原稿 PDF 頁：[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=27)。
+
+1. 常pain、abdominal tenderness、leukocytosis、fever。External drainage effluent易辨；internal可diarrhea、dyspnea、SIRS非特異。
+2. Postoperative第一線索delayed recovery，通常firstweek。
+3. Workup：output volume、color/consistency等description、content biochemical water-electrolyte balance/amylase/lipase/pH、microbiology、nutrition markers。
+4. CT/MRI contrast studies定anatomy，如origin、length、obstruction/abscess；barium通常contrast，能顯mucosal surfaces。
+
+### E. 治療
+
+原稿 PDF 頁：[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=27)、[28](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=28)、[29](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=29)。
+
+1. Fluids/electrolytes
+a. Fluid通常iso-osmotic，rich Na/K/Cl/bicarbonate。High-output大失衡，可dehydration、hypokalemia、hyponatremia、metabolic acidosis。
+b. UpperGI更acidic、rich K，replacement maintenance0.9%NaCl加K，頻繁reassess corrections。
+c. Pancreatic/duodenal失bicarbonate，可需replace。
+d. 可分析composition正確補deficits。
+2. Drainage
+a. 防fluid accumulation/infection。
+b. 多enterocutaneous自行drain skin，但tract可能retained fluid感染。
+c. VAC負壓wound therapy，可增blood flow、減collections；保skin、減output。
+3. Nutrition
+a. 55%–90%deficiencies，尤其upperGI因fluid/electrolyte/protein大量失。
+b. 可能supplement超daily demands。Low-output額外protein，high-output額外caloric/protein如basal1.5–2倍。
+c. Enteral preferred，直接stimulate enterocytes，促mucosal proliferation。
+i. 335high-output small-intestine retrospective（median1350mL/day），85% n285 enteral，spontaneous closure可接受。
+ii. High residuals/diarrhea等tolerability可限制。
+d. TPN降GI secretion/output，可能提高closure，尤其high-output及合antisecretory如octreotide。
+e. Site影響：一般esophagus、lower small intestine、colon enteral；stomach、pancreas、upper small intestine TPN。
+f. 有evidence支持fish oil、omega3、glutamine supplement，可能immune/blood flow改善。28high-output study，TPN加oral glutamine0.3g/kg/day，spontaneous closure顯著較多。
+5. Refractory high-output
+a. Acid suppression PPIs/H₂-antagonists因降gastric acidity/secretion研究；PPIs更有效。
+b. Antimotility通常推薦loperamide、diphenoxylate/atropine、codeine，抑GI muscles。
+i. Loperamide效果最大；studies每dose12–24mg安全用，但adverse concerns，>16mg/day謹慎；大量liquid可增output。
+
+## IV. POSTOPERATIVE ILEUS
+
+### A. Epidemiology
+
+原稿 PDF 頁：[30](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=30)。
+
+1. 依procedure：
+a. Abdominal hysterectomy約3%。
+b. Bowel resection約15%。
+2. 可延stay/recovery、加morbidity，含pain、PONV、aspiration pneumonia/thromboembolism/nosocomial infection risks。
+
+### B. 定義
+
+原稿 PDF 頁：[30](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=30)。
+
+1. Surgery後transient正常GI motility受損。
+2. Paralytic state非mechanical obstruction，可stomach/small/large intestine。
+3. 通常2–3days，可6days；以flatus、active bowel sounds、BM等客觀signs監恢復。
+a. 依site，小腸最快24hr；胃平均24–48hr；colon3–5days。
+b. >約6days稱paralytic ileus。
+
+### C. 原因
+
+原稿 PDF 頁：[30](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=30)、[31](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=31)。
+
+1. ANS控bowel，parasympathetic增、sympathetic抑。
+a. Postoperative sympathetic output增可ileus；colon較依賴ANS，可能解較長恢復。
+b. Vagal對胃parasympathetic重要，abdominal surgery不慎損可impaired emptying。
+2. Fasting upperGI motility由migrating motor complex推contents distally。
+a. Postoperative fasting胃/小腸contractility全依此。
+b. Surgery inflammation、inhibitory reflexes、nitrous oxide/substanceP/vasoactive intestinal peptide等inhibitory neurotransmitters釋放，可減activity。〔Nitrous oxide依原文。〕
+3. Exacerbating
+a. Anesthesia：halothane/enflurane/atropine delayed gastric emptying。
+b. Opioids μ₂-agonism主要減colonic motility；high dose/prolonged可paralytic ileus。
+c. Perioperative其他降motility如anticholinergics。
+
+### D. 診斷
+
+原稿 PDF 頁：[31](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=31)。
+
+1. Abdominal distension、無bowel sounds、delayed flatus/stool、gas/stool accumulation可nausea/vomiting。
+2. 全員physical distension exam、plain abdominal radiographs找air/dilated loops。
+3. CT排mechanical obstruction。
+
+### E. 管理
+
+原稿 PDF 頁：[31](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=31)、[32](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=32)、[33](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=33)。
+
+1. Epidural anesthesia
+a. 降local sympathetic/inflammation、增splanchnic blood flow可改善，也減opioids。
+b. 多studies減POI；benefit多thoracic blockade至少48–72hr。
+6. Pharmacologic
+a. Opioid-sparing analgesia
+i. NSAIDs analgesia省opioid、減inflammatory prostaglandins；加opioid可減需求20%–30%。
+ii. Double-blindRCT morphinePCA加ketorolac減morphine、earlierBM1.5對1.7days，p<0.05。
+iii. 需評benefit超platelet inhibition postoperative bleeding、anastomotic leak/wound dehiscence risk。
+b. Prokinetics/laxatives
+i. Erythromycin
+(a) Macrolide、motilin receptor agonist；motilin促gastric contractions/migrating complex。
+(b) RCT似無POI resolution benefit。
+ii. Metoclopramide無POI studies benefit，但antiemetic可adjunct。
+iii. Laxatives
+(a) GI stimulation應重要，但data有限。
+(b) 多data支持bisacodyl suppositories如10mgrectal daily，減normal function time，有些stay降evidence。
+iv. Gastrografin
+(a) Oral contrast hypertonic，draw fluid入lumen、減wall edema、促peristalsis理論benefit。
+(b) 80prolongedPOI RCT mean83.7對101.3hr，p=0.19，未顯著。
+c. Peripheral μ-antagonists
+i. Alvimopan（Entereg）
+(a) Peripheral selectivity200倍，oral GI absorption差、bioavailability約6%，減systemic/BBB likelihood。
+(b) 四NorthAmerican phaseIII RCT adult surgery多bowel resection/hysterectomy，standardPOI prevention；placebo、oral6mgBID、12mgBID，immediate presurgery至7days、15doses。
+(1) 3/4顯著減normal bowel function time（耐solid food、BM）；12mg對female、>65特別有益。
+(2) Pooled12mg對placebo減20hr，102對121.8hr，p<0.05；stay6.6對7.6days，p<0.001。
+(c) POI-related NG insertion6.6%對11.5%，p<0.001；paralytic ileus及nausea/vomiting/distension2.9%對8.8%，p<0.001，皆減。
+(d) 12months chronic noncancer pain opioid bowel dysfunction study MI7（1.3%）對0（0%）。
+(1) 不似與12month duration相關，其他含POI studies無CV risk增、無causality established。
+(2) FDA因concern設REMS；醫院須EASE註冊，限short-term inpatient、≤15doses。
+ii. Methylnaltrexone
+(a) Peripheral μ-antagonist approved chronic opioid constipation，非FDA POI。
+(b) SC daily/everyotherday0.15mg/kg，四捨五入近2mg，通常8或12mg。
+(c) PhaseIII無POI duration減，但無oral option可替alvimopan。
+iii. Naloxegol
+(a) Oral peripheral μ-antagonist approved opioid constipation；25mgdaily，renal dysfunction、CYP3A4 inhibitor需reduce。
+(b) 非FDA POI。
+
+## V. POSTOPERATIVE NAUSEA AND VOMITING
+
+### A. Epidemiology
+
+原稿 PDF 頁：[34](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=34)。
+
+1. 整體surgical patients約30%postoperative vomiting、50%nausea；high-risk PONV最高80%。
+2. 未控制可延post-anesthesia care unit stay，outpatient procedures有時非預期住院。
+
+### B. Risk factors
+
+原稿 PDF 頁：[34](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=34)。
+
+1. Surgical：
+a. Volatile anesthetics：通常dose-dependent，first6hr出現。
+b. Postoperative opioids：dose-dependent增risk。
+c. General anesthesia。
+d. Anesthesia每延1hr增risk。
+e. Cholecystectomy、laparoscopic、gynecological最常。
+2. Patient-specific：
+a. Female。
+b. Motion sickness、chemotherapy nausea/vomiting、PONV history。
+c. Nonsmoker。
+d. Younger。
+3. Apfel simplified score四predictors：female、PONV/motion sickness史、nonsmoker、postop opioids。0/1/2/3/4項分別risk10/20/40/60/80%。
+4. Stratified prevention：
+a. Low0：無pharmacologic prophylaxis，wait-and-see。
+b. Medium1–2：1–2interventions。
+c. High>2：≥3interventions。
+d. 新guidelines因risk score非完全predictive，所有人不論factors至少1pharmacologic prophylaxis。
+
+### C. Prevention
+
+原稿 PDF 頁：[35](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=35)、[36](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=36)。
+
+1. Multimodal通常target risk avoidance。IMPACT>5000 surgical patients factorial design六interventions：避volatile/nitrous oxide、postop short-acting opioids、ondansetron/dexamethasone/droperidol。除opioid選擇，每項皆減PONV；各獨立作用，因此多項有益。
+2. 可能時regional替general，後者PONV增11倍。必要general，propofol induction/maintenance preferred overvolatile。IMPACT propofol relative risk降19%，p<0.001。
+3. 避nitrous oxide carrier，nitrogen/oxygen等其他gas relative risk降12%，p=0.003。
+5. Pharmacologic prophylaxis
+a. Serotonin-3 antagonists第一線，手術末最有效。
+i. Ondansetron4mgIV anti-vomiting NNT6較anti-nausea NNT7好。
+ii. IV granisetron0.35–3mg同ondansetron；IV palonosetron0.075mg小gynecologic laparoscopic study更有效，PONV42%對67%，p<0.05。
+b. Dexamethasone induction最有效。
+i. IMPACT4mgIV relative risk降26%。
+ii. 最近induction8mgIV比standard care vomiting absolute risk降8%。
+c. Droperidol0.625–1.25mgIV surgery末有效。
+i. Efficacy同ondansetron/dexamethasone，IMPACT relative risk降約25%。
+ii. FDA CV black-box限制使用，但PONV dose極低，不太可能CV effects。
+d. NK1 antagonists如aprepitant應induction給；data有限但似ondansetron。805 abdominal surgery double-blindRCT oral40mg、125mg或IVondansetron4mg；primary complete response（無vomiting/rescue）無異，但兩aprepitant doses皆減vomiting。
+e. Transdermal scopolamine術前晚貼；合ondansetron first24hr PONV absolute降10%。
+
+### D. Rescue
+
+原稿 PDF 頁：[36](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=36)。
+
+1. First6hr需rescue，選不同於prophylactic class；>6hr可repeat同藥。
+2. 未prophylaxis者試serotonin-3 antagonist。
+
+## VI. UPPER GASTROINTESTINAL BLEEDING
+
+### A. 定義、epidemiology
+
+原稿 PDF 頁：[36](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=36)、[37](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=37)。
+
+1. Esophagus、stomach、duodenum bleeding。
+2. 美國annual每100,000 adults65hospitalizations；male double female，age增。
+3. 每年350,000住院、$2.5billion。
+5. Nonvariceal入院28day mortality約13%；variceal約20%；兩者因care advances下降。
+
+### B. Etiologies
+
+原稿 PDF 頁：[37](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=37)。
+
+1. Nonvariceal
+a. Gastric/duodenal ulcer
+i. SevereUGIB最常，占全部47%。
+ii. Anticoagulant時較常，通常self-limited。
+iii. 多H.pylori，也NSAIDs、hyperacidity如Zollinger-Ellison、stress mucosal disease（詳Supportive/Preventive章）。
+b. Esophagitis
+i. 約13%。
+ii. GERD史、NSAIDs/oralbisphosphonates/tetracycline、Candida/HSV infection risks。
+iii. 常hematemesis、較少melena。
+iv. 比其他UGIB rebleeding/mortality低。
+c. Gastroduodenal erosions（erosive gastritis/duodenitis）：mucosal defect引inflammation無ulcer。
+i. Causes同ulcers，另excess alcohol、radiation、bariatric surgery、chronic bile reflux。
+ii. Anticoagulant較常，通常self-limited。
+iii. 可progress ulcer。
+d. Mallory-Weiss tear：distal esophagus/proximal stomach縱向mucosal laceration、intramural dissection。
+i. Intra-abdominal pressure突然增，forceful gastroesophageal junction distention致tear。
+ii. 通常forceful vomiting。
+e. 少見vascular malformation、malignancy、aortoenteric fistula、gastric antral vascular ectasia、prolapse gastropathy。
+2. Variceal
+a. SevereUGIB相對少<5%，cirrhosis較高。
+b. 6weeks mortality約20%。
+c. Cirrhotic liver阻venous flow使portal hypertension，portal pressure增、blood轉其他部位。
+d. 任GI可varices，多esophagus/stomach。
+e. Cirrhosis約50%gastroesophageal varices；varices約12%診斷1year內bleed；1year recurrence約60%。
+
+### C. Initial assessment、risk stratification
+
+原稿 PDF 頁：[37](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=37)、[38](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=38)。
+
+1. 50%melena+hematemesis，30%僅hematemesis（red/coffee-ground），20%僅melena。
+2. 約5%hematochezia（bright red rectal），可swiftUGIB；stomach約1L才hematochezia，50–100mL可melena。
+5. NG爭議，未改善outcomes，但無frankhematemesis時aspirate inspection有用。
+a. Bright red多需urgentendoscopy。
+b. Normal不排UGIB，約15%normal aspirate有high-risk lesions。
+c. Varices史尤其recent band ligation可能contraindicated。
+7. Scores助site-of-care、endoscopy timing。
+a. Blatchford clinical/lab預測intervention need。
+b. Rockall含endoscopic findings，預測rebleed/death。
+c. AIMS65 clinical/lab估in-hospital mortality、stay、cost。
+d. Guidelines Blatchford≤1辨very-lowrisk，可能不需hospital/inpatientscope；Rockall無支持或反對，反對AIMS65辨low-risk。
+
+### D. 管理
+
+原稿 PDF 頁：[38](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=38)、[39](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=39)、[40](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=40)。
+
+1. General
+a. 兩large-caliber peripheralIV至少18G，unstable preferred16G；比central更快fluids，Poiseuille law故preferred。
+b. Saturation<90%鼻管oxygen。
+c. 立即type/crossmatch準備transfusion。
+4. Endoscopy
+a. Diagnostic
+i. Diagnosis/risk assessment；therapeutic也可減recurrence，詳後。
+ii. 一般24hr內。
+iii. Unstable/suspectedvariceal儘速≤presentation12hr。
+iv. 大量胃血妨scope可erythromycin/metoclopramide，非routine；repeat need減OR0.55、95%CI0.32–0.94，但blood products/stay/surgery無改。
+v. Scope前ET可防aspiration，selection爭議。
+vi. Findings預測rebleed、導therapy。
+(a) Nonvariceal ulcer recent-hemorrhage stigmata（Table6）。
+Table 6. Bleeding peptic ulcer findings、prevalence、rebleeding
+| Risk | Stigmata | Forrest | Prevalence | Rebleed |
+|---|---|---|---|---|
+| High | Active spurting | IA | Spurting/oozing合9.3% | 合55% |
+| High | Active oozing | IB | 同上 | 同上 |
+| High | Nonbleeding visible vessel | IIA | 6.1% | 43% |
+| High | Adherent clot | IIB | 6.5% | 22% |
+| Low | Flat pigmented spot | IIC | 13.1% | 10% |
+| Low | Clean base | III | 52.6% | 5% |
+Information from: Laine L, Peterson W. Bleeding peptic ulcer. N Engl J Med 1994;331:717-27; Enestvedt BK, Gralnek IM, Mattek N, et al. An evaluation of endoscopic indication and findings related to nonvariceal upper-GI hemorrhage in a large multicenter consortium. Gastrointest Endosc 2008;67:422-9; Laine L, Jensen DM. Management of patients with ulcer bleeding. Am J Gastroenterol 2012;107:345-60.
+(b) Variceal：確認active後開始endoscopic/pharmacologic。
+b. Therapeutic
+i. 找source後可和diagnostic合做。
+ii. Nonvariceal
+(a) Peptic ulcer
+(1) Active spurting/oozing、nonbleeding visible vessel應治。
+(2) Vigorous irrigation不掉adherent clot治有爭議；older等high-risk可能benefit。
+(3) Flatspot/cleanbase不治。
+(4) Hemostatic clips、epinephrine injection、thermal常合用；epinephrine不可單用，需第二modality。
+(b) Erosions/Mallory-Weiss通常不適endoscopic。
+iii. Variceal
+(a) Esophageal首bandligation，優sclerotherapy。
+(b) Band不可行推薦sclerotherapy。
+(c) Gastric常不適band，需rescue（詳後）。
+
+### E. Anticoagulation/antiplatelet管理
+
+原稿 PDF 頁：[42](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=42)、[43](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=43)。
+
+1. Anticoagulation
+a. Bleeding時無強適應需continue者停antithrombotic。
+b. ACG反對warfarinGIbleed住院FFP/vitaminK；PCCrole無consensus，但推薦PCC優FFP，尤其life-threatening、INR顯著高、massivetransfusion不可行。
+c. Dabigatran idarucizumab不routine，但past24hr服且life-threatening可考慮。
+d. Rivaroxaban/apixabanGIbleed住院不推薦andexanetalfa。
+e. DOAC相關GIbleed PCC非routine；past24hr服且life-threatening可考慮。
+f. Long-termantithrombotic中UGIB多仍thrombosisrisk，應resume。
+i. WarfarinGIhemorrhage retrospectivecohort，
+90days內resume者adjusted death HR0.31（95%CI0.15–0.62）、thrombosis HR0.05（0.01–0.58）較低，recurrentGIbleed未顯著增HR1.32（0.50–3.57）。Median4days（IQR2,9）resume；提示多者benefits超risks。
+ii. 至少待source找出且控制才resume。
+iii. 權衡short-term rebleed/thrombosis。
+iv. 部分experts4–7days resumewarfarin。
+v. Target-specificoralanticoagulants resume risks/benefits/timing不明。
+2. Antiplatelet
+a. Aspirin secondaryCVprevention GIbleed不推薦hold；若interrupt，hemostasis後24hr內resume。
+b. 其他restart依scope rebleedrisk；low P2Y12可hemostasis後1–3days；high再延至risk低。
+
+## VII. ENDOCRINE EMERGENCIES
+
+### A. Epidemiology
+
+原稿 PDF 頁：[43](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=43)、[44](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=44)。
+
+1. DKA/HHS最常diabetic emergencies。
+a. 美國DKA500,000hospitaldays、每年cost至$5billion。
+b. 2009–2014美國hospitalization增54%，<44最高。
+c. 多type1，為diabeticchildren/adolescents mortality最重要contributor。
+d. DKA in-hospital mortality0.1%–2.6%，HHS5%–20%，依age/comorbidities。
+2. HyperglycemiaBG>140mg/dL criticallyill常見，prevalence依程度/族群。
+a. 約27%ICUadmission>200，約90%stay至少一次>110。
+b. 一致與mortality增相關，尤無diabetes；ACS/stroke關聯最強。
+c. Glucose variability也與ICUmortality相關。
+4. Thyroid crisis/storm/criticalthyrotoxicosis少見，thyrotoxicosis住院<10%；治療mortality8%–25%，未治至100%。
+6. Adrenal crisis（acuteadrenalinsufficiency/Addisonian）為life-threatening glucocorticoid、可能mineralocorticoiddeficiency。
+a. Chronicadrenalinsufficiency每100patient-years3.3需住院。
+b. CIRCI不同於adrenalcrisis；prevalence10%–20%依定義/族群，septicshock報告至60%。
+
+### B. DKA/HHS
+
+原稿 PDF 頁：[44](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=44)、[45](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=45)、[46](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=46)。
+
+1. DKA presentation
+a. Guidelines：BG>250、urine/serumketonespositive、pH<7.30，bicarbonate<18mmol/L、aniongap>10。Severe pH<7、bicarbonate<10、gap>12，加stupor/coma。
+b. Glucose通常<800mg/dL，comatose可更高。Starvation、pregnancy、presentation前insulin、SGLT2inhibitors可normal/mild升。
+c. Insulin缺減uptake，加catecholamines/cortisol/glucagon/GH counterregulatoryrelease增lipolysis；freefattyacids在肝成β-hydroxybutyrate/acetoacetate，ketonemia、high-gapmetabolicacidosis。
+d. Symptoms可幾天，但ketoacidosis快速，可急惡化。
+e. 典型young、leaner type1。
+f. Nausea/vomit80%（較DKA而非HHS）、polyuria/polydipsia/weightloss、abdominalpain30%、acetonefruitybreath；tachycardia、poor turgor、osmoticdiuresisvolume loss致hypotension、severeacidemia Kussmaulrespirations。
+g. Hyperosmolality、缺insulin使K出cell，measured可高；但total-body相對deficit，insulin可惡化。
+4. 管理
+a. Fluids、correcthyperglycemia、electrolytes主要K；可能correctacidemia。
+b. 常profoundhypovolemia，waterdeficit可10–12L，first24hr補。
+i. 無cardiogenicshock，firsthour0.9%NaCl15–20mL/kg（通常1–1.5L）；後按hemodynamics/urine，通常250–500mL/hr。
+ii. Milddehydration、Na正常/高可0.45%NaCl250–500mL/hr。
+iii. DKA BG<200、HHS<300換dextrosefluid，常D5+0.45%NaCl。
+iv. Fluidselection考Na，快速correcthypernatremia可severe consequences。
+v. Recent balancedcrystalloid比saline可短DKAresolution，需confirm。
+c. Insulin mainmodality。
+i. CorrectBG、抑freefattyacids減ketones、correctacidosis。
+ii. IVregular優SC，short half-life易titrate。
+iii. Initial0.1unit/kgIVbolus、0.1unit/kg/hrcontinuous。Bolus依patient/institution，給後密切BG；可無bolus0.14unit/kg/hr，resolutiontime相似。
+iv. Hourlytitrate降BG50–75mg/dL/hr。
+v. DKA達200降0.02–0.05unit/kg/hr，維150–200至ketosis解。
+vi. HHS達300降0.02–0.05unit/kg/hr，維200–300至mentalchanges解。
+vii. 續至DKAketosis解或HHSosmolality/mental解再SC。
+(a) DKAresolution：BG<200加以下2：bicarbonate≥15mEq/L、venouspH>7.3、gapnormal。Guidelines gap≤12mEq/L，institution可異。
+(b) Newrequirement SCdaily0.5–0.8units/kg，basalglargine/detemir+boluslispro/aspart/glulisine。原SC可outpatientrequirement guide，高baselineweightdose不足。SC與停IV重疊1–2hr。
+(c) Mild/moderate可SC，severe未評。
+(1) Basal0.15–0.3units/kg q12–24hr。
+(2) Initialrapid0.2units/kgbolus，後rapidq2–4hr至DKA解。
+d. Adequaterenalfunction下aggressiveK，goal4–5mEq/L。
+i. Initial<3.3先holdinsulin、補至>3.3。
+ii. 3.3–5.2每Lfluid加20–30mEq。
+iii. Initial>5.2不補、密切monitor；跌<4才補。DKAinitialhyperkalemia不可sodiumpolystyrenesulfonate/furosemide等total-bodyremoval，insulin後通常降。
+e. IVbicarbonate非routine。
+i. Ketosis解快速correctpH，bicarbonate可能hypokalemia等害。
+ii. pH≥6.9studies無benefit。
+iii. RecentICUstudy AKI可能mortalitybenefit，但排ketoacidosis。
+iv. pH<6.9應給。
+(a) 無prospective，但此acidemia可severesequelae。
+(b) 100mEqNaHCO₃於400mLsterilewater+20mEqKCl，200mL/hr，pH>7停。
+f. Phosphate<1mg/dL或hypophosphatemia相關severe cardiac/respiratorydysfunction補。
+
+### C. Hyperglycemia
+
+原稿 PDF 頁：[46](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=46)、[47](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=47)、[48](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=48)。
+
+1. Presentation
+a. 因普遍無特定presentation。
+b. 常無classic polyuria/polydipsia/polyphagia。
+c. Stresshyperglycemia與severity相關。
+2. Causes
+a. Stresshormones cortisol/epinephrine及cytokinesrelease增，glucoseproduction、insulinresistance增。
+b. Dextrosefluids、corticosteroids、exogenoussympathomimetics加劇。
+3. 管理
+a. 曾視beneficialadaptive、非priority，通常>200才治。
+b. 因獨立ICUmortality關聯，tightcontrol關注增。
+c. 2001landmark intensiveinsulintherapy改paradigm。
+i. Singlecenter surgicalICU parenteralnutrition，intensiveIVgoal80–110對conventional180–200。
+ii. ICUmortality4.6%對8.0%，p<0.04；stay/therapy>5days最明顯10.6%對20.2%，p=0.005。
+iii. Bloodstreaminfection、AKI、ICU-acquiredweakness（當稱critical-illnesspolyneuropathy）較少。
+iv. 同center同designmedicalICU2006，in-hospitalmortality37.3%對40.0%，p=0.33無benefit；AKI少、ventilatorliberation/ICU/hospitaldischarge較早。Stay≥3days mortality43.0%對52.5%，p=0.009，但非baselinecharacteristic分組，subgroupvalidity受疑。
+v. 因此guidelines含2008SurvivingSepsis廣薦、常standardcare。
+d. Multicenter不支持routineintensive。
+i. 因singlecenter、unblinded、largebenefit concerns，3multicentertrials。
+ii. 一因safety早停：severeBG≤40，17.0%對4.1%，p<0.001；28daymortality24.7%對26.0%，p=0.74無benefit，但underpowered。
+iii. 第二因protocolviolations早停；ICUmortality17.2%對15.3%，p=0.41無benefit；severehypo8.7%對2.7%，p<0.0001。
+iv. NICE-SUGAR>3000，intensive81–108對conventional≤180。
+(a) 90daymortality增27.5%對24.9%，p=0.02。
+(b) Severehypo≤40：6.8%對0.5%，p<0.0001。
+(c) ICU/hospitalstay、ventdays、RRTneed無benefit。
+v. 2023RCT9230medical/surgicalICU，liberal>215才insulin對intensive80–110。
+(a) DailyBG medianabsolutedifference約28mg/dL。
+(b) ICUstay、90daymortality、severehypo無異。
+e. 7RCT11,425meta，28daymortalityOR1.04（95%CI0.93–1.17）無異；hypoglycemiaOR7.7（6.0–9.9）顯增。
+f. ADA、2021SurvivingSepsisBG>180開始insulin。
+i. 多target140–180。
+ii. 部分可110–140若不hypoglycemic。
+
+### D. Hypoglycemia
+
+原稿 PDF 頁：[48](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=48)、[49](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=49)。
+
+1. Presentation
+a. Brain必需glucose，不能produce、有效用alternativefuels、存大量glycogen，需circulatingcontinuoussupply。
+b. PhysiologicBG複雜multifaceted pathways：pancreas降insulin升glucagon、CNS升norepinephrine/acetylcholine、adrenalmedulla升epinephrine、liver升glycogenolysis/gluconeogenesis。
+c. Early sweat/anxiety/hunger/palpitations/tremor/arousal；persistentworseconfusion/dizziness/speechdifficulty；severeseizures/coma。
+d. 通常glucose全恢復，severeprolonged可permanentbraininjury。
+e. 可逆cardiacarrestcause，原因不明應考慮。
+f. Sedation可遮neurological，counterregulatory impaired/masked如circulatoryshock。
+2. Causes
+a. 過insulin、glucoseintake減（無insulin罕造成severe）、resistance減（weightloss/adrenal/pituitaryinsufficiency）、clearance減（renal/hepatic）、drugs常sulfonylureas/meglitinides/ethanol，可能pentamidine/quinine/quinolones/IGF1/β-blockers/ACEinhibitors。
+b. MixedICU retrospective BG<45predictors：CVVH bicarbonatereplacementOR14（95%CI1.8–106）；nutrition減未調insulinOR6.6（1.9–23）；diabetesOR2.6（1.5–4.7）；insulinOR5.3（2.8–11）；sepsisOR2.2（1.2–4.1）；inotropesOR1.8（1.1–2.9）。
+c. 其他studiesrisks renalinsufficiency、diabetes、ventilator、female、severity高、longICU、liverdisease、immunocompromised、medical/nonelectiveadmission。
+d. Insulin+renalfailure尤注意clearance減，hypoglycemia延長。
+3. 管理
+a. Conscious無severe symptoms口服juice/soda/dextrosetablets。
+i. Initial15g，15–20min未改善/仍低repeat。
+ii. Rescue<2hr短，後snack/meal更多glucose。
+b. 不能oral或住院moderate/severe需parenteral。
+i. Glucagon1mg促hepaticglucogenesis/glycogenolysis；type1（常非醫療環境）、無diabetes有用；type2較少用因stimulateinsulin/glycogenolysis；常nausea/vomiting。
+ii. 住院severe symptoms或BG<40；insulininfusion<70（neurologicalinjury<100）IVdextrose。
+(a) 適當停insulin。
+(b) D50 10–20g即20–40mL。
+(c) 15minBGrepeat，再doses至>70。
+(d) 避過dextrose致iatrogenichyperglycemia；variability關adverse。
+(e) BG<100reassessinsulin預防。
+
+### E. Thyroid crisis
+
+原稿 PDF 頁：[49](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=49)、[50](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=50)、[51](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=51)。
+
+1. Presentation
+a. Severe hyperthyroidism manifestations。
+b. Hyperthyroidlab加clinical可diagnose。
+i. Cardinal hyperthermia/diaphoresis；tachycardia不成比例於fever；GI nausea/vomiting/diarrhea/jaundice。
+ii. Progressive agitation/psychosis/coma等mentalchanges，與高mortality相關；其他arrhythmias/HF/tachypnea。
+iii. TSH常belowrange，freeT₃、free/totalT₄升；triggerillness減T₄
+轉T₃時，totalT₃可正常。
+iv. 其他hypercalcemia/hyperglycemia/leukocytosis或leukopenia/LFT升。
+v. 無universalcriteria；Burch/Wartofsky（Table7）辨potentialstorm，有效但specificity不高。
+Table 7. Burch and Wartofsky thyroid storm criteria
+| Criteria | Points |
+|---|---|
+| Temperature°F99–99.9／100–100.9／101–101.9／102–102.9／103–103.9／≥104 | 5／10／15／20／25／30 |
+| HR99–109／110–119／120–129／130–139／≥140 beats/min | 5／10／15／20／25 |
+| AF absent／present | 0／10 |
+| CHF absent／mild edema／moderate rales／severe pulmonary edema | 0／5／10／20 |
+| GI absent／moderate nausea-vomiting-diarrhea-abdominalpain／severe jaundice | 0／10／20 |
+| CNS absent／mild agitation／moderate delirium-psychosis-extremelethargy／severe seizure-coma | 0／10／20／30 |
+| Precipitant history positive／negative | 0／10 |
+〔Precipitant history的positive0、negative10依原表保留。〕
+2. Causes
+a. 可untreatedhyperthyroid史，但多acuteeventtrigger如surgery/pregnancy/trauma；住院最常infection。
+b. Drugs：radioactiveiodine、levothyroxine/liothyronineoverdose、cytotoxicchemotherapy、aspirin、iodinatedcontrast、amiodarone、organophosphatetoxicity。
+c. 少為undiagnosedhyperthyroid初presentation。
+
+### F. Myxedema coma
+
+原稿 PDF 頁：[52](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=52)、[53](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=53)。
+
+1. Presentation
+a. Advanceduntreatedhypothyroid；無absolutecriteria分severehypothyroid，辨telltalesigns及時診斷。
+b. Clinical而非lab診斷。
+i. 最常alteredmental/hypothermia；其他hypotension/bradycardia/hypoglycemia/constipation/urinaryretention、hand/facepuffiness、pleural/pericardial/peritonealeffusions。
+ii. 可shock/arrhythmias，QTprolong可TdP。
+iii. Infection signs無SIRS應疑。
+iv. 通常TSH高、T₃/T₄低/不可測，centralhypothyroidTSH可不當低/正常；hormonechange不太correlateseverity。
+c. Olderwomen較多，temperature regulation異常winter多。
+d. Nonthyroidalillness（euthyroidsick/SICUthyroid）超範圍。
+2. Causes
+a. Longstandinghypothyroid，亦infection/MI/surgery/coldacuteevent。
+b. Sedatives/anesthetics/narcotics/lithium/immunecheckpointinhibitors/amiodarone、突然停levothyroxine。
+3. 管理
+a. Endocrineemergency，不等labs即治。
+b. Rewarm、治trigger；infection常，全thoroughworkup。
+c. ATAguidelines：
+i. 可underlyingACTHdeficiency，restorethyroid加速cortisolmetabolism；levothyroxine前empiricIVstress-dosecorticosteroids（strong）。通常hydrocortisone50mgq6hr或100mgq8hr。
+ii. IVlevothyroxine loading200–400mcg；small/older/cardiacdisease/arrhythmia史較低（strong）。
+iii. 後dailyIV1.6mcg/kg（strong），clinical改善可enteral。
+iv. Conversion減可加IVliothyronine（weak）。Treatment highT₃關mortality，避highdoses。Loading5–20mcg後2.5–10mcgq8hr；small/older/cardiac/arrhythmia较低；續至consciousness、clinicalparameters改善。
+v. Monitormental/cardiac/pulmonary改善。
+vi. Hormonesq1–2days合理，optimalTSH/T₄/T₃未定；未改善可增levothyroxine/加liothyronine。HighT₃可為safety減therapy適應（weak）。
+d. 可需vasoactivesupport，通常β₁-agonistcatecholamine epinephrine/dopamine增HR/BP。
+
+### G. Adrenal insufficiency
+
+原稿 PDF 頁：[54](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=54)、[55](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch13.pdf#page=55)。
+
+1. Presentation
+a. Adrenalcrisis
+i. 無universal evidence-baseddefinition，依pragmatic/clinical。Adult急healthdeterioration、absolute/relativehypotension（SBP<100或比baseline低≥20mmHg），parenteralglucocorticoid後1–2hr改善。Rarevasodilatoryshockcause。
+ii. Severe hypotension/alteredmental/acuteabdominalpain/vomit/fever，常誤acuteabdomen；可fatigue/lethargy/confusion/weakness/musclejointpain。Primary可aldosterone/mineralocorticoid缺saltscraving、characteristic skinhyperpigmentation。
+iii. Lowcortisol，acute stressed<18mcg/dL suggestive；亦hyponatremia/hyperkalemia/hypoglycemia/normocyticanemia。
+b. CIRCI
+i. Criticalillness underlyingdisease complicationHPAaxis受損；多septicshock，亦ARDS/arrest/trauma/burns。
+ii. Fluid-refractoryhypotension需vasopressor；lab可hypoglycemia/eosinophilia，Na低/K高少見。
+iii. 歷史以lowcortisol或cosyntropin後不足increase診斷；criticallyill限制大，testreproducibility差、commercialassays不符analyticstandards。
+iv. 雖限制，cosyntropin後increase<9mg/dL最佳predictor，severe sepsis/shock metyraponetest判定；serum<10mg/dL高PPV低sensitivity。〔此處mg/dL依原文保留，來源PDFp54。〕
+v. 僅septicshock疑CIRCI，fluid仍未達resuscitation且ongoingvasopressor給corticosteroids。
+vi. Practiceguidelines反對cortisolbasedtesting決定candidate；故不推薦assay/cosyntropin診CIRCI影響治療。
+3. 管理
+a. Acutecrisis
+i. Shock若有給IVfluids/vasopressors，通常isotonicNaCl/norepinephrine；initialbolus後可加dextrose治hypoglycemia。
+ii. Corticosteroidsoptimal不明，通常IVhydrocortisone200–300mg/day，50mgq6hr或100mgq8hr；部分expertlower足。
+iii. Hydrocortisone因proteinbinding/tissuedistribution/balancedglucocorticoid-mineralocorticoidpreferred；其他parenteral按relativepotency。Acute通常不需mineralocorticoidreplacement，Na retention需days。
+iv. 明顯改善如shock解可taper、轉oral。
+b. Chroniccorticosteroid有acutestressor增stressdose防crisis。
+i. Dose依stresslevel。
+ii. Fever/majordental/invasive diagnostic如colonoscopy，maintenancedouble/triple1–3days可能足。
+iii. Severeinfection/major surgery/shock：IVhydrocortisone200–300mg/day（50mgq6hr或100mgq8hr），clinicalimprove或surgery後taperhome。
+c. SepticshockCIRCI詳ShockSyndromesI；ARDSsteroids詳PulmonaryDisordersI。

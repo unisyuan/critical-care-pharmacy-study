@@ -1,0 +1,248 @@
+# 第 08 章詳細重點整理
+
+依提供的 2024 教材整理。專有名詞與藥名保留英文；原稿有疑義處保留核對註。
+
+## 複習架構：用 PK 決定暴露，用 PD 連結效果
+重症病人的 absorption、distribution、metabolism 與 excretion 會隨病程快速改變；起始劑量與維持劑量需分開思考。
+
+### 1. 給藥途徑與 Absorption
+- IV 給藥避開吸收問題，但仍需確認 formulation、相容性、輸注速度與可用途徑。
+- Enteral absorption 受 GI motility、灌流、feeding、藥物 interactions 與製劑影響。可以磨粉不代表所有 enteral tube 路徑都適用。
+- IM／SC 在 peripheral perfusion 不良時可能吸收不穩定；病況改善後吸收增加也可能改變暴露。
+- Bioavailability 決定到達 systemic circulation 的比例，first-pass metabolism 與製劑差異都可能影響 oral／IV 轉換。
+
+### 2. Distribution 與 Loading Dose
+- Vd 描述藥物在體內的分布程度，fluid resuscitation、capillary leak、edema、體型與蛋白結合都會影響。
+- Loading dose 主要依 target concentration、Vd 與 bioavailability；不能因 clearance 下降就自動同比例減少 loading dose。
+- Hypoalbuminemia 可增加部分藥物 free fraction；total concentration 的降低不一定表示 active concentration 降低。
+- Hydrophilic 與 lipophilic drugs 對 fluid changes 的反應不同，不能以單一重症 dosing 規則處理所有藥物。
+
+### 3. Metabolism、Excretion 與 Maintenance Dose
+- Hepatic clearance 受 blood flow、intrinsic clearance 與 protein binding 影響；shock、organ failure 與 interactions 均可能改變。
+- Renal clearance 可能下降，也可能出現 augmented renal clearance。SCr 的變化具有時間延遲，估算公式未必適合快速變動的 kidney function。
+- Maintenance dosing 主要依 clearance 與目標暴露，需考慮 dose、interval 與 infusion duration，而非只調整一項。
+- KRT／ECMO 的影響與藥物特性、器材及治療設定有關，需重新評估 loading、maintenance 與 TDM。
+
+### 4. Half-Life 與 Steady State
+- Half-life 與 Vd、clearance 有關；Vd 增加或 clearance 降低可延長達 steady state 的時間。
+- Loading dose 可較快建立暴露，但不能取代後續 maintenance；劑量調整後的採血時間需配合新的 PK 狀態。
+- First-order 與 nonlinear／capacity-limited elimination 的濃度反應不同；後者的劑量與 concentration 不能線性外推。
+
+### 5. PD 與 Antimicrobial Exposure
+|概念|重點|
+|---|---|
+|Time-dependent activity|關注有效濃度維持時間；dose interval 與 extended／continuous infusion 可能重要|
+|Concentration-dependent activity|關注 peak／MIC；較高 peak 與足夠 interval 的設計需配合 toxicity|
+|Exposure-dependent activity|關注 AUC／MIC；單一 trough 未必能完整代表暴露|
+- 目標需連同 pathogen MIC、infection site、病人的 PK 與 toxicity 上限評估。
+
+### 6. TDM 的正確使用
+1. 確認 indication、目標與測量的是 total／free concentration。
+2. 記錄實際 dose、infusion、採血時間與上次調整。
+3. 判讀 peak、trough 或 AUC 的方法與模型假設。
+4. 同時看 clinical response、organ function 與 adverse effects，再決定調整與重測。
+- 錯誤時間的「漂亮濃度」可能比沒有濃度更誤導。
+
+
+# 分主題詳細條目
+
+## I. 前言
+
+原稿 PDF 頁：[7](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=7)。
+
+Pharmacokinetics（PK）指藥物在體內的移動，特別是 absorption、distribution、metabolism 與 excretion（ADME）；pharmacodynamics（PD）則處理藥物對身體的 biochemical 及 physiologic effects。重症病人的 physiologic changes 會造成影響藥物 PK 與 PD 的變化。雖然評估這些變化影響的研究不多，臨床人員在決定重症病人的 drug dosing 時仍必須考慮一般原則。重症病人最重要的考量是這些變化可能迅速發生。某個 PK 變數今天改變，隔天就可能因其他變化而向完全不同的方向改變。例如，原本有 augmented renal clearance（ARC）的重症病人隨後發生 acute kidney injury（AKI），特定藥物原先增加的 renal elimination，會在 AKI 發生後轉為減少。因此，critical care pharmacist 應了解這些原則如何受到改變，並在病人 ICU 住院期間持續預期後續變化。
+
+## II. 給藥途徑
+
+### A. Intravenous。
+
+原稿 PDF 頁：[7](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=7)、[8](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=8)。
+
+1. IV 是重症病人最常使用的給藥方式。IV drug 的 bioavailability 為 100%，確保整個 dose 進入 systemic circulation。因此，比起可能 absorption 降低的其他途徑，此方式較受偏好。
+2. 儘管 IV administration 是 ICU 最常見的方式，仍有數種潛在問題。IV route 並不保證藥物能進入 circulatory system 以外的部位。例如，hydrophilic drugs 可能不易進入 meninges、pulmonary tissue 與 bone 等組織。Septic shock 等狀態下，藥物進入 muscle 與 subcutaneous tissue 的程度會低於預期。也有報告記錄 inadvertent extravascular administration 所致 severe adverse effects。多份報告描述 drug extravasation；外滲藥物可以是 vesicants 或 non-vesicants，也可具有或不具有 cytotoxicity，凸顯 IV administration 的潛在併發症。例如 norepinephrine extravasation 可造成局部 vasoconstriction 與 tissue necrosis，有時嚴重到導致失去肢體。
+B. Enteral／Oral。重症病人採 enteral 或 oral route 時，drug bioavailability 會有變異。此途徑在重症病人的主要疑慮是 drug absorption 的變化，相關問題於下一節討論。值得注意的是，並非所有藥物在重症病人 enteral/oral administration 後 absorption 都會下降。一項研究探討 enteral atorvastatin 的 PK：單次 atorvastatin 20 mg 後，ICU 病人的 AUC 顯著高於健康志願者（110.5 ng/mL vs. 5.9 ng/mL，p<0.01）。Hepatic metabolism 改變只能部分解釋 AUC 增加。Enteral administration 的另一複雜因素是 first-pass metabolism，可能顯著影響經肝代謝藥物的 bioavailability（本章後面討論）。因此 critical care clinicians 評估 enteral/oral route 時，應考慮不同 enteral medications 的 bioavailability 可能增加，也可能下降。
+C. Subcutaneous／Intramuscular／Sublingual。SC 與 IM administration 避開 liver first-pass metabolism，可提高 bioavailability；然而，藥物仍需 absorption 進入血液，所以也可能受到 absorption changes 影響。與 enteral/oral route 不同，臨床人員通常不會完全放棄 SC 或 IM medications。例如，obesity 病人雖可能有 absorption 改變，仍繼續使用 low-molecular-weight heparins、insulin、antipsychotic haloperidol。臨床人員也應注意 sepsis 或 shock states 中 perfusion 改變所致 absorption 問題。重症病人的 sublingual route 尚未經研究；但可預期 blood flow 與 absorption 改變，會造成與 SC、IM 相似的疑慮。Critical care clinicians 應了解 SC route 可以使用，但重症病人資料很少或沒有，無法確定是否發生 PK changes。
+D. Inhalation。直接將藥物給入重症病人的 lungs，通常為降低 systemic exposure，及／或在 pulmonary tissue 達到高濃度。高 local concentration 是為提高 therapeutic effect，同時減少 adverse 或不想要的 effects。例如 inhaled bronchodilators 可減少 tachycardia 等 unwanted systemic effects。Colistin、aminoglycosides 等 antibiotics 以 inhalation 給藥，為提高 lung antibiotic concentrations 並降低 kidney exposure。研究顯示重症病人 inhaled amikacin 後 serum concentrations 有變異，但遠低於 IV administration。另一研究發現，高齡與較高 PEEP 可獨立預測可測得的 serum tobramycin concentrations。雖然 inhaled antibiotics 用於降低 systemic adverse effects，這種 antibiotic administration route 的 efficacy 尚未確立。Particle size 1–5 micrometers 最有機會到達 lungs 各部位；更小 particles 可能呼出而未沉積於 lower airways，更大 particles 則沉積於 large bronchi 或 oropharynx。市面多種 nebulizers 用不同方法達到所需 particle sizes。
+E. Intrathecal／Intraventricular。Intraventricular route 用於提高 local concentrations、降低 systemic concentrations。一般族群評估此 route efficacy 的資料缺乏，僅限 case series。儘管資料不足，臨床人員仍會用此方式給 antibiotics 治療 multidrug-resistant meningitis，或給 analgesics 處理 chronic pain。
+
+## III. Absorption
+
+原稿 PDF 頁：[9](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=9)、[10](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=10)。
+
+A. Bioavailability（F）指所給 drug dose 到達 systemic circulation 的百分比。SC、IM 或 enteral administration 的 bioavailability 受到 absorption，以及 enteral drugs 的 first-pass metabolism 影響。直接評估重症病人 enteral drug absorption 的研究很少，且結果不一。此外，enteral drugs 的研究未區分 plasma concentrations 的變化來自 absorption，還是 first-pass metabolism 的變化。雖然重症病人 absorption 資料有限，若偏好 IV 以外 route，臨床人員仍需考慮多個因素。
+B. Gastrointestinal（GI）perfusion。Hypotension 及／或 shock 會使血流轉往 vital organs（brain、heart、lungs），遠離相對非 vital organs（muscles、skin、splanchnic organs），可能改變 drug absorption。
+3. Vasopressor effect：Vasopressors 可能造成 regional hypoperfusion，使 drug absorption 降低。Vasopressin 在 distributive shock 降低 splanchnic blood flow；epinephrine 在 septic shock 也降低此 blood flow。穩定 distributive shock 中，dopamine 維持 splanchnic flow 不如 norepinephrine。另一方面，比較 cardiac surgery 病人有無 vasodilatory shock，使用 norepinephrine 可提高 intestinal perfusion，但 splanchnic oxygen demand/supply 平衡較差。Vasopressors 對 splanchnic perfusion 的不一效應，使多數臨床人員在使用 vasopressor 時放棄 oral/enteral drugs。Septic shock 病人 enteral fludrocortisone 的高度個體間 PK variability 顯示此疑慮。其他部位的 absorption 也可能受損。一項研究探討重症病人 low-molecular-weight heparin certoparin 的 anti-Xa activity，
+其中 40.3% 病人使用 vasopressors。標準 certoparin doses 下，不到 50% 病人的 anti-Xa activity 達 antithrombotic range（0.1–0.3 IU/mL）。
+C. Intestinal atrophy。Fasting 3–5 天後，gut mucosal crypt depth、villus height 可降低；與異常 lactulose-mannitol test 相關，表示 gut permeability 增加。Splanchnic hypoperfusion 可進一步惡化 gut hypoxia，增加 permeability。然而 intestinal atrophy 對 drug absorption 的影響尚未經系統評估。Atrophy 與 tight junction integrity 喪失，可增加 passive diffusion drugs 的 absorption；相反地，atrophy 引起的 cellular dysfunction 可能降低需 active transport 的 drug absorption。目前無研究可釐清此難題。
+D. GI dysmotility。重症病人 GI dysmotility 已明確確立，發生率可達 60%。Box 1 列出相關 delayed gastric emptying 的病況。多數 acetaminophen kinetics 研究顯示 GI dysmotility 延遲 absorption、降低 peak concentration。Delayed gastric emptying 造成 PK changes 的疑慮，是避免 oral/enteral drugs 的主要因素。GI dysmotility 通常以 metoclopramide 或 erythromycin 等 prokinetics 治療。尚無資料說明 prokinetics 對這類重症病人 absorption 的影響。但健康志願者研究中，erythromycin 合併 controlled-release pregabalin，使 pregabalin AUC 降 17%、peak plasma concentration 降 13%，顯示 prokinetics 可影響其他 drug absorption。重症病人中，prokinetics 對 oral/enteral drugs PK 的影響仍相對不清楚。
+
+### G. Absorption 的重要考量。
+
+原稿 PDF 頁：[11](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=11)。
+
+1. 對 GI drug absorption 能力的整體不確定性，常使臨床人員為確保足夠 bioavailability 而避開 enteral drugs。GI route 的決定具任意性，有時可能增加費用。許多臨床人員依經驗將 enteral feeding tolerance 當正常 absorption 的 surrogate；然而 tolerance 定義有爭議、評估變異高，並非理想 marker。若已知與 enteral nutrition 交互作用的 drug 必須 enteral administration，應在給藥前後以最短可行時間中斷 nutrition。
+2. SC、IM route 也有 absorption 問題，但臨床並未放棄這些方式。有些人主張增加 SC doses，但尚無研究證實其安全性或 efficacy。小型研究在 obesity 的 medical 與 trauma patients 中，weight-based enoxaparin（0.5 mg/kg q12h）比標準 dosing 改善 serum anti-Xa concentrations，提示較多 subcutaneous fat 會影響某些藥物 PK/PD。
+
+## IV. Distribution
+
+原稿 PDF 頁：[12](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=12)、[13](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=13)、[14](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=14)。
+
+A. 藥物的 volume of distribution（Vd）是將體內 drug total amount 與 serum concentration 關聯起來的 PK 變數。可簡單用下式表示：
+C = dose / Vd。
+C 是 IV drug 初始 serum concentration，Vd 是 volume of distribution。但多數 drugs 的 distribution 更複雜，受 systemic/tissue perfusion、protein binding、tissue permeability、lipid solubility、drug pKa 與環境 pH 等因素影響。重症病人可能出現上述一個或多個因素的變化，造成某些 drugs 的 Vd 改變。
+B. Tissue perfusion。如前述，shock states 與 vasopressor 可重新分配 blood flow，使 muscle、skin、splanchnic organs perfusion 降低。Vd 較小、主要停留在 plasma water 的 hydrophilic drugs，進入低血流 physiological compartments 的 distribution 可減少。Septic shock animal studies 中，microcirculation gentamicin concentrations 低於 central vessels，凸顯此問題。
+C. Fluid shifts 與 tissue membrane permeability。重症病人 resuscitation 可接受大量 IV fluids，常導致 total body water 與 interstitial volume 增加。除 fluid administration，sepsis、thermal injury、ARDS、AKI、heart failure、cirrhosis 都可增加 interstitial fluid；surgery 後也增加 extracellular volume。此時 hydrophilic drugs 的 Vd 增加，lipophilic drugs 的 Vd 則常不變。更多 interstitial water 提供更大的 distribution compartment，使 serum concentrations 降低；而更大的 interstitial space 也可使該空間的 drug concentration 降低。IV piperacillin 的 subcutaneous tissue microdialysis 研究顯示，septic shock 病人的 piperacillin tissue concentrations 低於健康志願者。但某些重症病人 interstitial fluid 增加，不一定出現 drug Vd 增加。一項研究見 aminoglycoside Vd 增加，另一項則無法在重症 surgical patients 中將 fluid shifts 與 aminoglycoside Vd changes 建立關聯。
+D. Protein binding。許多 drugs 結合 serum protein carriers，包括 albumin、AAG、lipoproteins、cortisol-binding protein。Albumin 與 AAG 在重症病人尤重要：albumin 通常結合 acidic drugs（diazepam、phenytoin），AAG 結合 basic drugs（lidocaine、diltiazem）。Stress 下 albumin 通常降低（negative acute-phase reactant），AAG 則增加（positive acute-phase reactant）。Vd 計算式為：
+Vd = Vp + Vt × (fu / fut)。
+fu 為 plasma unbound fraction；fut 為 tissue unbound fraction；Vt 為 tissue volume；Vp 為 plasma volume。Plasma albumin concentration 降低時，drug fu 增加，使 Vd 增加。相反地，AAG 增加會提高 protein binding、降低 AAG-bound drug 的 fu，最終降低該 drug Vd。
+Table 1. 重症病人部分 drugs 的 extraction ratio（ER）及 protein binding
+| Protein binding | High ER drugsᵃ | Intermediate ER drugsᵃ | Low ER drugsᵃ |
+| --- | --- | --- | --- |
+| Albumin | Diltiazem；Morphine；Propofol；Propranolol；Verapamil | Aspirin；Carvedilol；Midazolam；Omeprazole | Carbamazepine；Ceftriaxone；Dexamethasone；Diazepam；Itraconazole；Phenytoin；Valproic acid；Warfarin |
+| AAG | Diltiazem；Fentanyl；Lidocaine；Propranolol；Verapamil | Midazolam | Carbamazepine |
+ᵃ ER 於 V. Metabolism 說明。
+AAG = α1-Acid glycoprotein。
+E. pH。Acid-base disorders 在重症族群常見；雖可治療，但造成的 plasma pH changes 可影響 distribution。多數 drugs 為 weak acids 或 weak bases，依周圍環境以 ionized 或 nonionized state 存在。Nonionized drugs 比 ionized drugs 容易穿過 cell membranes，所以 ionized state 的 Vd 預期較小。理論上，acidemia 病人的 weak acid drug 預期有較大 Vd，而同一病人的 basic drug Vd 較小。雖可能將 plasma pH changes 與 Vd changes 關聯，人類證據仍缺乏。
+F. Extracorporeal membrane oxygenation。多年來重症病人使用 ECMO 逐漸增加。依 institution 與 clinician expertise，ECMO 可在 respiratory 及／或 circulatory failure 的照護中扮演重要角色。執行此 therapy 後，已有 medication PK changes 報告；最常見是 Vd 增加。ECMO 透過 catheter tubing（通常 polyvinyl chloride）抽取大量 blood，經 oxygenator、heat exchanger 後將重新 oxygenated blood 回輸病人。依 circuit/pump 類型不同，priming 所需 volume 可增加某些常用 medications 的 Vd，尤其小 Vd drugs。評估 ECMO-induced PK changes 時需考慮：（1）相關資料有限；（2）多數資料分析來自 neonates、pediatric patients，不一定適用 adults。Neonatal kidney/liver function 未成熟造成的 PK changes，不一定存在於重症 adults。Adult data 主要限於 case reports 與 retrospective data。Adult prospective studies 包括 oseltamivir、vancomycin、meropenem。Prospective data 顯示 ECMO-induced PK change 程度，至少對已研究 drugs，可能小於 retrospective studies。
+一般預期 ECMO 的 PK changes 來自三個因素：（1）ECMO tubing、membrane oxygenator 可結合 medications，導致 sequestration，預期 Vd 增加；（2）priming fluid type、pH、volume 可增加 medication Vd；（3）circuit 隨時間老化，medication binding 飽和，dosing requirement 可能回到 pre-ECMO 狀態。數個 ex vivo studies 顯示 fentanyl、midazolam 等 drugs 在 ECMO circuit 流失，應使臨床人員密切監測 ECMO 期間 analgesia、sedation 是否適當。其他 ECMO PK changes 與重症本身相關，散見本章各節。
+這些概念是一般化原則，個別 drug data 可能不同。例如 ex vivo drug-binding study 顯示 ciprofloxacin recovery 96%，即使它為 lipophilic、原預期會 bind tubing。Prospective observational pilot study 評估 ECMO 病人 β-lactam、aminoglycoside PK parameters，PK objectives 達成情況不一；作者建議同時使用 ECMO 與這些 antibiotics 時作 TDM。Drug physicochemical properties 也決定與 circuit 的 interaction，需考慮 pKa、ionization、molecular size、plasma protein binding、lipophilicity。Lipophilicity 常以 n-octanol/water partition coefficient（logP）表示，高 logP 意味較 lipophilic、sequestration risk 較高。Protein binding 程度也可影響 ECMO sequestration。COVID-19 pandemic 常需 ECMO，也揭示多種 antiviral agents 的 PK changes。Favipiravir、ribavirin 見 Vd changes；chloroquine、lopinavir、ritonavir、favipiravir 則疑有 CYP metabolism 改變。COVID-19、ECMO 對 antivirals PK 的更多影響，可參閱 European Society of Clinical Microbiology, Infectious Diseases 的 comprehensive review。
+
+## V. Metabolism
+
+原稿 PDF 頁：[15](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=15)、[16](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=16)。
+
+A. 前言。Drug metabolism 主要位置是 liver，也可在 GI tract、kidney、lung、brain 等 tissues 發生。關於 drug metabolism，尤其重症變化，最了解的是 hepatic metabolism。因此本節主要討論 hepatic changes，特別是 high 與 low extraction ratio drugs。不過下一小節簡述 renal metabolism，因 kidney drug metabolism 的 clinical consequences 是未來可能的研究領域。
+B. Renal metabolism。證據顯示 kidneys 表現 CYP2B6、CYP3A5，也有資料提示 CYP2C8、2C9、3A4 的表現。UGT（UDP-glucuronosyltransferase）1A9、2B7 在 kidneys 豐富表現，參與 drug glucuronidation。然而，沒有資料說明重症變化如何影響這些 renal enzymes 的 drug metabolism。AKI 重症病人增加 hypoglycemic events、降低 insulin requirements，顯示 renal insulin metabolism 發生 clinically relevant changes，但確切機制尚未良好描述。
+C. Hepatic metabolism。Hepatic clearance 指每單位時間，liver 完全清除 drug 的 blood volume。Liver 的 metabolism 能力取決於三個 physiologic variables：hepatic blood flow、protein binding、hepatic enzymes 的 intrinsic activity。IV drug（bioavailability = 1）的 hepatic clearance 可簡化為：
+CLH = Q × E。
+CLH 為 hepatic clearance，Q 為 hepatic blood flow，E 為 hepatic extraction ratio。E 又可表示：
+E = (fu × CLint) / (Q + fu × CLint)。
+fu 為 plasma unbound fraction，CLint 為 intrinsic hepatic clearance，Q 為 hepatic blood flow。Extraction ratio 依 drug 單次通過 liver 被移除的 fraction 分類，範圍 0–1；分 high（>0.7）、intermediate（0.3–0.7）、low（<0.3）。Liver 不 metabolize 此 drug 時 E=0；CLH 完全取決於 hepatic blood flow 時 E=1。Critical illness changes 的影響取決於 drug ER；Table 1 列部分 high/low ER drugs。
+
+### D. High extraction ratio drugs。
+
+原稿 PDF 頁：[16](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=16)、[17](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=17)、[18](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=18)。
+
+1. High hepatic ER drugs 由 hepatic enzymes metabolize，因此 liver clearance。High ER 時，clearance 不隨 hepatic enzyme activity 改變，主要受 hepatic blood flow 限制。數學上：
+fu × CLint >>> Q。
+依上述關係，CLH 可簡化為：
+CLH = Q。
+Clearance 指自 blood 移除 drug，因此 plasma concentration 的變化影響 efficacy。Unbound/free drug 引起 pharmacologic response，故須評估 unbound steady-state concentration（Cssu）。Hepatically metabolized drugs 的 total/steady-state concentration（Css）可表示：
+Css = dose / CLH。
+Css 包括 protein-bound 與 unbound drug；dose 是 drug input rate。因 high ER drugs 的 CLH=Q，可改為：
+Css = dose / Q。
+High ER drug 的 unbound steady-state concentration 為：
+Cssu = (fu × dose) / Q。
+Figure 1 顯示各 CLH variable 改變如何影響 Css、Cssu。High ER drugs 中，hepatic blood flow 改變同時影響 Css、Cssu；fu 變化只影響 Cssu。
+Figure 1. High ER drug 的變數對 total/unbound steady-state concentrations 的影響。
+| 變數改變 | Css | Cssu |
+| --- | --- | --- |
+| Q ↑ | ↓ | ↓ |
+| Q ↓ | ↑ | ↑ |
+| CLint ↑ | ↔ | ↔ |
+| CLint ↓ | ↔ | ↔ |
+| fu ↑ | ↔ | ↑ |
+| fu ↓ | ↔ | ↓ |
+CLH = Q；Css = dose / Q；Cssu = fu × dose / Q。
+Figure 2. Low ER drug 的變數對 total/unbound steady-state concentrations 的影響。
+| 變數改變 | Css | Cssu |
+| --- | --- | --- |
+| Q ↑ | ↔ | ↔ |
+| Q ↓ | ↔ | ↔ |
+| CLint ↑ | ↓ | ↓ |
+| CLint ↓ | ↑ | ↑ |
+| fu ↑ | ↓ | ↔ |
+| fu ↓ | ↑ | ↔ |
+CLH = fu × CLint；Css = dose / (fu × CLint)；Cssu = dose / CLint。
+
+### F. Intrinsic clearance 改變的影響。
+
+原稿 PDF 頁：[19](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=19)。
+
+1. Drug interactions：造成 intrinsic clearance 改變的一個主要機制，不是 critical illness 的變化，卻仍對 drug metabolism 構成重大威脅。CYP enzymes 在 phase I metabolism 很重要。許多 ICU drugs 為 substrates、inducers、inhibitors，或兼具數種作用。複雜 pharmacotherapeutic regimens 可造成 CYP-mediated interactions。與其他族群一樣，substrate 與同一 CYP inhibitor 同給時 drug concentration 增加，與 inducer 同給時 concentration 降低。
+2. Inflammation：inflammatory states 在 CYP activity 改變很重要。IL-1、IL-6、TNF-α 降低 CYP expression/activity；early sepsis 的 cytokines 增加也會抑制 CYP activity。健康志願者給 endotoxin 後 CYP-mediated metabolism 降低的研究支持此點。但未有研究描述 cytokine-mediated changes 的時間進程。臨床人員只能依 patient response、toxicity monitoring 判斷 metabolism 是否改變或恢復正常。
+4. AKI：研究 AKI 對 midazolam hepatic metabolism 影響，依 RIFLE（risk、injury、failure、loss、end-stage kidney disease）判定 AKI 惡化的病人，midazolam concentrations 增加。作者推測是 CYP3A activity 受損。
+G. Intermediate extraction ratio drugs。Intermediate ER metabolism 依 hepatic blood flow、intrinsic clearance、unbound fraction；本質上依賴 high/low ER drugs 的所有變數，所以最難判定重症病人 hepatic clearance 如何受影響。重症病人常同時出現多種變化，例如 septic shock 因 cardiac output 增加而 hepatic blood flow 增加，同時因 circulating cytokines 增加而 intrinsic clearance 降低。快速變化的病人難以量化總效應。臨床人員常須監測期望 therapeutic outcome，同時留意 toxicity。Table 1 列部分 intermediate ER drugs。
+
+### H. 其他因素。
+
+原稿 PDF 頁：[19](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=19)、[20](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=20)。
+
+1. TBI 增加部分 drug hepatic clearance。
+a. 一項研究發現 TBI 初始 7–14 天 phenytoin hepatic clearance 增加；作者認為可能與 protein binding 改變、metabolism induction、hepatic metabolic capacity 的 stress 相關。
+b. 另一研究發現 nutritional protein intake 與 TBI 病人的 phenytoin metabolism 增加相關。
+c. TBI 病人的 phase II enzyme activity 也可能提高，lorazepam clearance 增加為證。Thermal injury patients 也有類似 lorazepam 資料，提示 critical illness 可影響 phase II metabolism。
+2. Hepatic failure：hepatic failure 顯著影響重症 drug dosing。更多資訊見 Hepatic Failure／GI／Endocrine Emergencies 章。
+
+## VI. Excretion
+
+### A. Renal excretion。
+
+原稿 PDF 頁：[21](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=21)、[22](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=22)。
+
+1. 多數 drugs 的 parent drug、metabolites 或兩者，主要由 kidneys excretion。Urinary excretion 依 filtration、secretion、reabsorption。ICU 病人的 renal drug excretion 可增加、降低或正常；其狀態依多種 variables，且可快速改變。這對 ICU 病人尤為真實：同一 clinical condition 依其進展可造成 excretion 增加，也可降低。
+2. Filtration。
+a. GFR 是最常描述 kidney function 的變數。National Kidney Foundation 將健康年輕男性正常值定為 140 ± 30 mL/minute/1.73 m²，健康年輕女性為 126 ± 22 mL/minute/1.73 m²。Increased GFR 無標準定義，有人提出超過正常上限 10%（男性 >160、女性 >150 mL/minute/1.73 m²）。
+b. ARC：surgery、trauma、burns、early sepsis 與 increased renal blood flow 相關，通常被認為由 cardiac output 增加及 vasodilation 引起。所致 ARC 被認為是 inflammatory insult（如 SIRS）的反應。
+i. 一項研究發現 ICU 病人 17.9% 有 glomerular hyperfiltration，多為較年輕、multi-trauma 或 surgery 入院者。另一研究年輕 postoperative trauma 病人 peak CrCl 可達 190 mL/minute/1.73 m²，支持此資料。較新研究發現 age ≤50、trauma、modified SOFA ≤4 為重要 ARC risk factors。133 位 trauma 病人研究則發現 age ≤56、SCr <0.7 mg/dL、male sex 為 independent risk factors，並據此建立 ARCTIC score（ARC in trauma intensive care）；score ≥6 的 sensitivity 0.843、specificity 0.682、PPV 0.843、NPV 0.682。
+ii. Burn patients 研究見 iohexol clearance 增加，入院 day 1 median 155 mL/minute/1.73 m²；小型研究 day 7 已回 baseline 122 mL/minute/1.73 m²。另多項研究見 burn patients 的 renally eliminated drug excretion 增加，可能與 burn 第二期 hyperdynamic phase 相關，通常始於 injury 後 48 小時。例子包括 vancomycin、ciprofloxacin、imipenem、fluconazole、aminoglycosides。
+iii. Fluid administration 預期改善 cardiac output、renal blood flow。Animal studies 確認 crystalloid 可短暫增加 CrCl；給 normal saline、3% hypertonic saline 的 sheep，calculated CrCl 顯著高於 controls。但尚無 human studies 驗證重症病人給 fluids 後 ARC。
+iv. Vasoactive drugs 預期改善 cardiac output、renal blood flow，但 human studies 未支持此預期；僅能在給 norepinephrine 前 CrCl 受損的部分病人建立 CrCl 改善。雖未能證實 ARC 發生，若 shock 病人用 vasopressors 且沒有 AKI，仍可能預期 normal renal blood flow、CrCl。ARC duration 未確立，多數研究 peak CrCl 約 day 4–5，一研究 day 7 回正常。
+c. Impaired renal clearance。
+i. AKI 時 renal drug excretion 減少，是重症病人最廣泛適用的變化。依族群及定義，ICU AKI incidence 可達 78%。AKI 顯著影響 renally eliminated drugs，須改 dosing 以避免 toxicity。
+ii. KDIGO AKI clinical practice guidelines 建議以 KDIGO AKI criteria staging，但無特定 drug-dosing recommendations。
+iii. 2010 KDIGO guidelines 的 clinical update 提供 AKI 重症病人 drug dosing 方法。然而重症 AKI 複雜，recommendations 不如 CKD dosing 精確。作者指出大多文獻與 FDA 的 renal dose adjustments 基於 CKD 病人資料。
+iv. Update 建議 stepwise approach 調整 AKI regimen（Box 2）。
+
+### B. Hepatic excretion。對多數 drugs hepatic excretion 不如 renal excretion 重要，但 critical illness 可能影響 biliary drug excretion；某些 NMBA clearance changes 為證。
+
+原稿 PDF 頁：[24](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=24)。
+
+1. 9 名 total biliary obstruction 手術病人的研究，pancuronium half-life 比 normal patients 顯著增加（270 vs. 132 minutes，p<0.001）。Pancuronium 及 metabolites 的 urinary excretion 不變，提示 half-life 增加來自 hepatic excretion 降低。
+2. Cholestasis 病人 vecuronium 類似，mean half-life 98 minutes，normal patients 58 minutes。
+C. Pulmonary excretion。Volatile gases（如 anesthetics）的 pulmonary excretion 很重要，可推測 impaired gas exchange（如 ARDS）影響 volatile gas removal。但缺乏重症 changes 對 anesthetic excretion 能力的資料。
+
+## VII. Pharmacodynamics
+
+原稿 PDF 頁：[24](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=24)、[25](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=25)。
+
+A. PD 指 drug biochemical/physiologic effects，特別與 mechanism of action 相關的效應。
+B. 此詞也涵蓋 drug/receptor binding、clinical effect；大多臨床人員用以指病人身上可辨識的 drug effect。例如 opioid PD effect 為病人回報 pain relief，但有些 drug effect 不易直接觀察，例如 PPI 為 gastric pH 增加。重症 PD studies 很少，大多與 antibiotics 相關。
+4. Vancomycin：最能描述 efficacy 的 PD parameter 為 AUC/MIC。數個 studies 評估 free 24-hour AUC/MIC（fAUC0–24/MIC），或 AUC × 50% protein binding / MIC。Guidelines 依文獻建議 effectiveness AUC/MIC ≥400、安全 <600。以 actual body weight 給 loading dose 20–35 mg/kg，以加速達 serum/PD goals、降低初期 subtherapeutic concentration。若 conventional dosing 無法達 target AUC，continuous infusion 可為 acceptable alternative；guidelines 也提及重症病人的 IV access 問題（Clin Infect Dis 2020:71;1361-4）。Vancomycin 已證實與多種 β-lactams、moxifloxacin、propofol、phenytoin、methylprednisolone、furosemide Y-site incompatible，這些都是 ICU 常用藥，因此須密切監測 coadministration。一項 retrospective nephrotoxicity study 中，intermittent dosing 的風險顯著高於 continuous infusion（OR 8.2；p<0.001）。重症可能需更積極 dosing；嚴重 trauma VAP 病人曾需 20 mg/kg q6h 才能最佳化 PK。
+5. Fluoroquinolones：類似 aminoglycosides，efficacy 以 Cmax/MIC ≥10 為基礎，對 gram-negative/gram-positive bacteria 有 post-antibiotic effect。PD studies 顯示 fAUC0–24/MIC 與 bacterial eradication 相關。Ciprofloxacin 治療 lower respiratory tract infection 研究，AUC0–24/MIC 125 與約 80% clinical cure probability 相關。但難將這些 PD variables 納入個別重症 dosing，因不常規測 serum concentrations，難確定 individual PD targets 是否達標。
+
+## VIII. Therapeutic drug monitoring
+
+原稿 PDF 頁：[26](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=26)、[27](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=27)。
+
+A. TDM 指測量 blood drug concentrations，聚焦 narrow therapeutic index drugs，目標為：（1）maximize efficacy；（2）reduce toxicity。重症 TDM 極重要，因上述 PK changes 可造成不理想 concentrations。Table 2 列 ICU 常用 drugs 與 therapeutic ranges。主要限制為缺乏臨床可用 assays；某些 assays cost-effectiveness 不足，特定機構不適合常規執行。另外，某些 assays 可能 cost-effectiveness 或 timeliness 不足，限制 routine use，因此 TDM 通常只涵蓋很有限的 drug spectrum。
+Table 2. 重症部分 drugs 的 TDM ranges。
+| Drug | Blood sample timing | Therapeutic rangeᵃ | Unbound therapeutic range |
+| --- | --- | --- | --- |
+| Amikacin | Peak（extended interval）；Trough（extended interval）；Peak（traditional）；Trough（traditional） | 30–40 mg/L；測不到；20–30 mg/L；<8 mg/L | — |
+| Carbamazepine | Trough | 4–12 mg/L | 0.5–4 mcg/mL |
+| Cyclosporine | Trough | 50–500 mcg/L | — |
+| Digoxin | Trough（postdose 8–24 hr） | 0.6–2 mcg/L | 0.4–0.9 ng/mL |
+| Gentamicin | Peak（extended interval）；Trough（extended interval）；Peak（traditional）；Trough（traditional） | 5–20 mg/L；測不到；8–10 mg/L；<2 mg/L | — |
+| Lidocaine | Peak | 1.5–5 mg/L | — |
+| Phenobarbital | Trough | 10–40 mg/L | — |
+| Phenytoin | Trough | 10–20 mg/L | 1–2.5 mcg/mL |
+| Tobramycin | Peak（extended interval）；Trough（extended interval）；Peak（traditional）；Trough（traditional） | 5–20 mg/L；測不到；8–10 mg/L；<2 mg/L | — |
+| Valproate | Trough | 50–100 mcg/mL | 5–15 mcg/mLᵇ |
+| Vancomycin | Peak 與 Trough 計算 AUC | AUC 400–600 mg × hour/L | — |
+ᵃ Antibiotic therapeutic ranges 可依 PD target attainment（如 peak/MIC）調整。
+ᵇ 最佳 unbound valproate range 尚未確定。
+TDM = therapeutic drug monitoring。
+資料改編自：J Antimicrob Chemother 2016;71:2754-9; Clin Infect Dis 2020:71;1361-4; Ther Drug Monit 2017;39:522-30; Infect Dis 2023;10:ofad058; Pharmacotherapy 2008;28:1391-400; Am J Cardiol 2012;109:1818-21。
+
+### B. Drug Nomograms／Protocols（給藥列線圖／方案）
+
+原稿 PDF 頁：[29](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=29)。
+
+Nomogram 是表示三個以上 variables 之關係的圖，將 scales 排列，使已知其他 variables 時即可決定其中一個 variable。典型例子為 once-daily aminoglycoside nomogram。使用者可利用其他 variables（從 infusion 至 drug concentration 採樣的時間，以及測得的 drug concentration），決定一個 variable，通常為 dosing interval。許多機構將 nomograms 納入 drug-dosing protocols 或 pathways，並慣稱為 drug-dosing nomograms。需注意，許多 nomograms（如 Hartford）並非在重症病人中建立，很可能未考慮 PK 改變的可能性。最常使用的 drug-dosing nomograms 之一，是針對 unfractionated heparin continuous infusions 建立。前文已提到，若專為重症病人設計，heparin nomogram 可縮短達到 therapeutic activated partial thromboplastin time 的時間。然而，仍應考慮建立 nomogram 所使用的 patient population，因為 variables 未必適用於所有族群。重症病人的 insulin infusion protocols 即為一例。前文已提到，若對 AKI 病人使用在無 kidney impairment 的重症病人中建立的 insulin infusion protocol，其 hypoglycemia 風險會更高。
+
+## IX. 結論（CONCLUSION）
+
+原稿 PDF 頁：[29](https://unisyuan.github.io/critical-care-pharmacy-study/pdf/ch08.pdf#page=29)。
+
+重症病人對藥物的反應方式存在明顯差異。此領域的研究顯示，特定重症族群使用某些藥物時，PK 與 PD 會顯著改變。雖然這些研究凸顯重要問題，仍需大量研究，才能更明確定義不同重症族群的變化。隨著研究持續進展，以及我們對病人藥物反應差異的理解增加，critical care clinicians 必須持續掌握新資訊，並了解這些資訊將如何影響病人照護。
