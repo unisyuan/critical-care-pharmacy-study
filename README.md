@@ -5,7 +5,7 @@
 - 20 章詳細重點整理（複習架構、分主題條目、比較表及原稿頁碼），可下載各章筆記。
 - 20 章連續閱讀全文，保留原標號、層級及表格。
 - 專有名詞、藥名與參考文獻保留英文。
-- 339 題 Self-Assessment Questions / Patient Cases，支援隨機練習與錯題複習。
+- 339 題 Self-Assessment Questions / Patient Cases，支援依教材順序練習與錯題複習。
 - 原 PDF 對照、各章 Markdown 下載。
 - 閱讀與練習紀錄儲存在目前瀏覽器。
 
